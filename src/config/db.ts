@@ -21,7 +21,7 @@ const createUsersTable = `
  `;
 
  const createIssuesTable = `
-//   CREATE TABLE IF NOT EXISTS issues (
+   CREATE TABLE IF NOT EXISTS issues (
 //     id SERIAL PRIMARY KEY,
 
 //     title VARCHAR(150) NOT NULL,
