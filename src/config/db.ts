@@ -44,10 +44,10 @@ const createUsersTable = `
        FOREIGN KEY (reporter_id)
        REFERENCES users(id)
        ON DELETE CASCADE
-//   );
-// `;
+   );
+ `;
 
-// export const initDB = async (): Promise<void> => {
+ export const initDB = async (): Promise<void> => {
 //   try {
 //     await pool.query(createUsersTable);
 //     await pool.query(createIssuesTable);
