@@ -17,7 +17,7 @@ const createUsersTable = `
 
      created_at TIMESTAMPTZ DEFAULT NOW(),
      updated_at TIMESTAMPTZ DEFAULT NOW()
-//   );
+   );
 // `;
 
 // const createIssuesTable = `
