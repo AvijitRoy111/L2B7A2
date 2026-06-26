@@ -35,7 +35,7 @@ const createUsersTable = `
      status VARCHAR(20) NOT NULL DEFAULT 'open'
        CHECK (status IN ('open', 'in_progress', 'resolved')),
 
-//     reporter_id INT NOT NULL,
+     reporter_id INT NOT NULL,
     
 //     created_at TIMESTAMPTZ DEFAULT NOW(),
 //     updated_at TIMESTAMPTZ DEFAULT NOW(),
