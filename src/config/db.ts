@@ -56,4 +56,4 @@ const createUsersTable = `
    } catch (error) {
      console.error("Database initialization failed:", error);
    }
-// };
+ };
