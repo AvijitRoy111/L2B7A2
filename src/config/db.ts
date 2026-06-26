@@ -13,7 +13,7 @@ const createUsersTable = `
      password TEXT NOT NULL,
 
      role VARCHAR(20) NOT NULL DEFAULT 'contributor'
-//       CHECK (role IN ('contributor', 'maintainer')),
+       CHECK (role IN ('contributor', 'maintainer')),
 
 //     created_at TIMESTAMPTZ DEFAULT NOW(),
 //     updated_at TIMESTAMPTZ DEFAULT NOW()
