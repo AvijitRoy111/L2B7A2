@@ -9,7 +9,7 @@ const createUsersTable = `
    CREATE TABLE IF NOT EXISTS users (
      id SERIAL PRIMARY KEY,
      name VARCHAR(100) NOT NULL,
-//     email VARCHAR(255) NOT NULL UNIQUE,
+     email VARCHAR(255) NOT NULL UNIQUE,
 //     password TEXT NOT NULL,
 
 //     role VARCHAR(20) NOT NULL DEFAULT 'contributor'
