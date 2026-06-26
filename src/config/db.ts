@@ -48,8 +48,8 @@ const createUsersTable = `
  `;
 
  export const initDB = async (): Promise<void> => {
-//   try {
-//     await pool.query(createUsersTable);
+   try {
+     await pool.query(createUsersTable);
 //     await pool.query(createIssuesTable);
 
 //     console.log("Database initialized successfully");
