@@ -20,7 +20,7 @@ const createUsersTable = `
    );
  `;
 
-// const createIssuesTable = `
+ const createIssuesTable = `
 //   CREATE TABLE IF NOT EXISTS issues (
 //     id SERIAL PRIMARY KEY,
 
