@@ -2,7 +2,7 @@
  import sendResponse from "../utility/sendResponse";
  import type { TRole } from "../types/auth.type";
 
-// const role = (...roles: TRole[]) => {
+ const role = (...roles: TRole[]) => {
 //   return (req: Request, res: Response, next: NextFunction) => {
 //     if (!req.user) {
 //       return sendResponse(res, {
