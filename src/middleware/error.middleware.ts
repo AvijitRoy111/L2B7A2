@@ -10,7 +10,7 @@
    const message = err instanceof Error ? err.message : "Internal Server Error";
 
    res.status(500).json({
-//     success: false,
+     success: false,
 //     message,
 //     errors: config.NODE_ENV === "development" && err instanceof Error ? err.stack : null,
 //   });
