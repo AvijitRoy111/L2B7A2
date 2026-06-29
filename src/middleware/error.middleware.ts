@@ -11,8 +11,8 @@
 
    res.status(500).json({
      success: false,
-//     message,
-//     errors: config.NODE_ENV === "development" && err instanceof Error ? err.stack : null,
+     message,
+     errors: config.NODE_ENV === "development" && err instanceof Error ? err.stack : null,
 //   });
 // };
 
