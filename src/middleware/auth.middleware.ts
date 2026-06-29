@@ -1,5 +1,5 @@
-// import type { JwtPayload } from "jsonwebtoken";
-// import config from "../config";
+ import type { JwtPayload } from "jsonwebtoken";
+ import config from "../config";
 // import jwt from "jsonwebtoken";
 // import { pool } from "../config/db";
 // import sendResponse from "../utility/sendResponse";
