@@ -3,7 +3,7 @@
  import type { TRole } from "../types/auth.type";
 
  const role = (...roles: TRole[]) => {
-//   return (req: Request, res: Response, next: NextFunction) => {
+   return (req: Request, res: Response, next: NextFunction) => {
 //     if (!req.user) {
 //       return sendResponse(res, {
 //         statusCode: 401,
