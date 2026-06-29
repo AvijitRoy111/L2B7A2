@@ -17,8 +17,8 @@
        });
      }
 
-//     const decoded = jwt.verify(
-//       token,
+     const decoded = jwt.verify(
+       token,
 //       config.ACCESS_SECRET as string,
 //     ) as JwtPayload;
 
