@@ -37,7 +37,7 @@
        });
      }
 
-//     req.user = decoded;
+     req.user = decoded;
 
 //     next();
 //   } catch (error) {
