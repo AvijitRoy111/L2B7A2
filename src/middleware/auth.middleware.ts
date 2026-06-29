@@ -39,8 +39,8 @@
 
      req.user = decoded;
 
-//     next();
-//   } catch (error) {
+     next();
+   } catch (error) {
 //     return sendResponse(res, {
 //       statusCode: 401,
 //       success: false,
