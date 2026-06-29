@@ -47,7 +47,7 @@
        message: "Invalid or expired token!",
        errors: error,
      });
-//   }
-// };
+   }
+ };
 
-// export default auth;
+ export default auth;
