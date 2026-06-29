@@ -43,10 +43,10 @@
    } catch (error) {
      return sendResponse(res, {
        statusCode: 401,
-//       success: false,
-//       message: "Invalid or expired token!",
-//       errors: error,
-//     });
+       success: false,
+       message: "Invalid or expired token!",
+       errors: error,
+     });
 //   }
 // };
 
