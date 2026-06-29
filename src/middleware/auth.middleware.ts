@@ -31,7 +31,7 @@
 
      if (userData.rows.length === 0) {
        return sendResponse(res, {
-//         statusCode: 404,
+         statusCode: 404,
 //         success: false,
 //         message: "User not found!!",
 //       });
