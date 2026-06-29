@@ -5,7 +5,7 @@
    err: unknown,
    _req: Request,
    res: Response,
-//   _next: NextFunction,
+   _next: NextFunction,
 // ) => {
 //   const message = err instanceof Error ? err.message : "Internal Server Error";
 
