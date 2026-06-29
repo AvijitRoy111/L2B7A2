@@ -5,7 +5,7 @@
  const role = (...roles: TRole[]) => {
    return (req: Request, res: Response, next: NextFunction) => {
      if (!req.user) {
-//       return sendResponse(res, {
+       return sendResponse(res, {
 //         statusCode: 401,
 //         success: false,
 //         message: "Unauthorized access!!",
