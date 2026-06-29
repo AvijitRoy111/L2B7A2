@@ -26,8 +26,8 @@
        `
          SELECT id, name, email, role FROM users WHERE id=$1
          `,
-//       [decoded.id],
-//     );
+       [decoded.id],
+     );
 
 //     if (userData.rows.length === 0) {
 //       return sendResponse(res, {
