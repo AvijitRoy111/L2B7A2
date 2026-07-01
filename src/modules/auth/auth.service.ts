@@ -17,7 +17,7 @@
      throw new Error("Invalid credentials!");
    }
 
-//   const user = userdata.rows[0];
+   const user = userdata.rows[0];
 
 //   const matchpassword = await bcrypt.compare(password, user.password);
 //   if (!matchpassword) {
