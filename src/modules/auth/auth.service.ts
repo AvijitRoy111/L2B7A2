@@ -24,8 +24,8 @@
      throw new Error("Invalid credentials");
    }
 
-//   const jwtPayload = {
-//     id: user.id,
+   const jwtPayload = {
+     id: user.id,
 //     name: user.name,
 //     email: user.email,
 //     role: user.role,
