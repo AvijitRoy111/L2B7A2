@@ -4,7 +4,7 @@
 
  const loginUser = async (req: Request, res: Response) => {
    try {
-//     const result = await authService.loginUserFromDB(req.body);
+     const result = await authService.loginUserFromDB(req.body);
 
 //     sendResponse(res, {
 //       statusCode: 200,
