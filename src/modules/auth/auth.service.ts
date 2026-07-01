@@ -11,7 +11,7 @@
             SELECT * FROM users WHERE email=$1
             `,
      [email],
-//   );
+   );
 
 //   if (userdata.rows.length === 0) {
 //     throw new Error("Invalid credentials!");
