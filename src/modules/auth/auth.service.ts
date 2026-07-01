@@ -9,8 +9,8 @@
    const userdata = await pool.query(
      `
             SELECT * FROM users WHERE email=$1
-//            `,
-//     [email],
+            `,
+     [email],
 //   );
 
 //   if (userdata.rows.length === 0) {
