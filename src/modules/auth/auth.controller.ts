@@ -54,6 +54,6 @@
  };
 
  export const authController = {
-//   loginUser,
+   loginUser,
 //   signUpUser,
 // };
