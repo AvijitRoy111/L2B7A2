@@ -20,8 +20,8 @@
    const user = userdata.rows[0];
 
    const matchpassword = await bcrypt.compare(password, user.password);
-//   if (!matchpassword) {
-//     throw new Error("Invalid credentials");
+   if (!matchpassword) {
+     throw new Error("Invalid credentials");
 //   }
 
 //   const jwtPayload = {
