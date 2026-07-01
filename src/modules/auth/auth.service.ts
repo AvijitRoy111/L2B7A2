@@ -6,7 +6,7 @@
  const loginUserFromDB = async (payload: TLoginUser) => {
    const { email, password } = payload;
 
-//   const userdata = await pool.query(
+   const userdata = await pool.query(
 //     `
 //            SELECT * FROM users WHERE email=$1
 //            `,
