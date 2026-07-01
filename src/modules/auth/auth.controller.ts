@@ -1,6 +1,6 @@
  import type { Request, Response } from "express";
  import { authService } from "./auth.service";
-// import sendResponse from "../../utility/sendResponse";
+ import sendResponse from "../../utility/sendResponse";
 
 // const loginUser = async (req: Request, res: Response) => {
 //   try {
