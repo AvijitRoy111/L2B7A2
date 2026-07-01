@@ -2,7 +2,7 @@
  import { authService } from "./auth.service";
  import sendResponse from "../../utility/sendResponse";
 
-// const loginUser = async (req: Request, res: Response) => {
+ const loginUser = async (req: Request, res: Response) => {
 //   try {
 //     const result = await authService.loginUserFromDB(req.body);
 
