@@ -16,11 +16,11 @@
      const statusCode =
        error instanceof Error && error.message.startsWith("Invalid credentials")
          ? 401
-//         : 500;
+         : 500;
 
-//     sendResponse(res, {
-//       statusCode,
-//       success: false,
+     sendResponse(res, {
+       statusCode,
+       success: false,
 //       message: error instanceof Error ? error.message : "Internal Server Error",
 //       errors: error,
 //     });
