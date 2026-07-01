@@ -6,7 +6,7 @@
    try {
      const result = await authService.loginUserFromDB(req.body);
 
-//     sendResponse(res, {
+     sendResponse(res, {
 //       statusCode: 200,
 //       success: true,
 //       message: "Login successful",
