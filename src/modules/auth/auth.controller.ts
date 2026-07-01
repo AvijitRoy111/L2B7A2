@@ -51,7 +51,7 @@
        errors: error,
      });
    }
-// };
+ };
 
 // export const authController = {
 //   loginUser,
