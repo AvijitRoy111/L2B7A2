@@ -55,5 +55,5 @@
 
  export const authController = {
    loginUser,
-//   signUpUser,
+   signUpUser,
 // };
