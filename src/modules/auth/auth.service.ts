@@ -4,7 +4,7 @@
  import type { TLoginUser, TSignUpUser } from "./auth.type";
 
  const loginUserFromDB = async (payload: TLoginUser) => {
-//   const { email, password } = payload;
+   const { email, password } = payload;
 
 //   const userdata = await pool.query(
 //     `
