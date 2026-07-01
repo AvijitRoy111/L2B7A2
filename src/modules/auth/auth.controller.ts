@@ -53,7 +53,7 @@
    }
  };
 
-// export const authController = {
+ export const authController = {
 //   loginUser,
 //   signUpUser,
 // };
