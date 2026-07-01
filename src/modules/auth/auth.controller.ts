@@ -34,10 +34,10 @@
      sendResponse(res, {
        statusCode: 201,
        success: true,
-//       message: "User registered successfully",
-//       data: result,
-//     });
-//   } catch (error) {
+       message: "User registered successfully",
+       data: result,
+     });
+   } catch (error) {
 //     sendResponse(res, {
 //       statusCode:
 //         error instanceof Error && error.message === "User already exists"
