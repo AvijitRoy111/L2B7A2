@@ -3,7 +3,7 @@
  import sendResponse from "../../utility/sendResponse";
 
  const loginUser = async (req: Request, res: Response) => {
-//   try {
+   try {
 //     const result = await authService.loginUserFromDB(req.body);
 
 //     sendResponse(res, {
