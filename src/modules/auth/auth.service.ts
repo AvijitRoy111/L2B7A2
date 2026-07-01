@@ -31,7 +31,7 @@
      role: user.role,
    };
 
-//   const { token } = generateToken(jwtPayload);
+   const { token } = generateToken(jwtPayload);
 
 //   const returnUser = {
 //     id: user.id,
