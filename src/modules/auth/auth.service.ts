@@ -1,6 +1,6 @@
  import { pool } from "../../config/db";
  import bcrypt from "bcrypt";
-// import generateToken from "../../utility/generateToken";
+ import generateToken from "../../utility/generateToken";
 // import type { TLoginUser, TSignUpUser } from "./auth.type";
 
 // const loginUserFromDB = async (payload: TLoginUser) => {
