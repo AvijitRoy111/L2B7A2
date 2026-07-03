@@ -50,7 +50,7 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
   const userRole = role || "contributor";
 
   if (!name || !email || !password) {
-//     throw new Error("Name, email and password are required!");
+    throw new Error("Name, email and password are required!");
 //   }
 
 //   const existingUser = await pool.query(
