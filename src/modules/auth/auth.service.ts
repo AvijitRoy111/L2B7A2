@@ -43,7 +43,7 @@
   };
 
   return { token, user: returnUser };
-// };
+};
 
 // const signUpUserIntoDB = async (payload: TSignUpUser) => {
 //   const { name, email, password, role } = payload;
