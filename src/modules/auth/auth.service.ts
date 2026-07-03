@@ -56,7 +56,7 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
   const existingUser = await pool.query(
     `
      SELECT id FROM users WHERE email = $1
-//   `,
+   `,
 //     [email],
 //   );
 
