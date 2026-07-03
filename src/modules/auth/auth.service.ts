@@ -69,7 +69,7 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
    const userdata = await pool.query(
      `
      INSERT INTO users (name, email, password, role)
-//     VALUES ($1, $2, $3, $4)
+     VALUES ($1, $2, $3, $4)
 //     RETURNING id, name, email, role, created_at, updated_at
 //   `,
 //     [name, email, hashedPassword, userRole],
