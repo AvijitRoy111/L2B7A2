@@ -46,7 +46,7 @@
 };
 
 const signUpUserIntoDB = async (payload: TSignUpUser) => {
-//   const { name, email, password, role } = payload;
+  const { name, email, password, role } = payload;
 //   const userRole = role || "contributor";
 
 //   if (!name || !email || !password) {
