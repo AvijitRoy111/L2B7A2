@@ -42,7 +42,7 @@
      updated_at: user.updated_at,
   };
 
-//   return { token, user: returnUser };
+  return { token, user: returnUser };
 // };
 
 // const signUpUserIntoDB = async (payload: TSignUpUser) => {
