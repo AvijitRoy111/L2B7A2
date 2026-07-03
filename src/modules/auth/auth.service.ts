@@ -57,8 +57,8 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
     `
      SELECT id FROM users WHERE email = $1
    `,
-//     [email],
-//   );
+     [email],
+   );
 
 //   if (existingUser.rows.length > 0) {
 //     throw new Error("User already exists");
