@@ -20,7 +20,7 @@
          error.message === "Invalid issue type" ||
          error.message === "Invalid issue status")
          ? 400
-//         : 500;
+         : 500;
 //     sendResponse(res, {
 //       statusCode: statusCode,
 //       success: false,
