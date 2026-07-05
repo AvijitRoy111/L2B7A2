@@ -4,7 +4,7 @@
  import type { JwtPayload } from "jsonwebtoken";
 
  const getAllIssues = async (req: Request, res: Response) => {
-//   try {
+   try {
 //     const result = await issueService.getAllIssuesFromDB(req.query);
 
 //     sendResponse(res, {
