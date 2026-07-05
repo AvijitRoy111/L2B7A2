@@ -36,8 +36,8 @@
 
      const result = await issueService.getSingleIssueFromDB(id as string);
 
-//     if (!result) {
-//       return sendResponse(res, {
+     if (!result) {
+       return sendResponse(res, {
 //         statusCode: 404,
 //         success: false,
 //         message: "Issue not found",
