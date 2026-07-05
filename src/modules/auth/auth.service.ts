@@ -73,7 +73,7 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
      RETURNING id, name, email, role, created_at, updated_at
    `,
      [name, email, hashedPassword, userRole],
-//   );
+   );
 
 //   return userdata.rows[0];
 // };
