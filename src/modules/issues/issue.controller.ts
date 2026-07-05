@@ -32,7 +32,7 @@
 
  const getSingleIssue = async (req: Request, res: Response) => {
    try {
-//     const { id } = req.params;
+     const { id } = req.params;
 
 //     const result = await issueService.getSingleIssueFromDB(id as string);
 
