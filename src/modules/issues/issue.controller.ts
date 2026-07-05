@@ -30,7 +30,7 @@
    }
  };
 
-// const getSingleIssue = async (req: Request, res: Response) => {
+ const getSingleIssue = async (req: Request, res: Response) => {
 //   try {
 //     const { id } = req.params;
 
