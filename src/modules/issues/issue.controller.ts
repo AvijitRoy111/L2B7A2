@@ -38,7 +38,7 @@
 
      if (!result) {
        return sendResponse(res, {
-//         statusCode: 404,
+         statusCode: 404,
 //         success: false,
 //         message: "Issue not found",
 //       });
