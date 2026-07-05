@@ -19,7 +19,7 @@
        (error.message === "Invalid sort value" ||
          error.message === "Invalid issue type" ||
          error.message === "Invalid issue status")
-//         ? 400
+         ? 400
 //         : 500;
 //     sendResponse(res, {
 //       statusCode: statusCode,
