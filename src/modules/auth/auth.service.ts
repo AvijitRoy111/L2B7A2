@@ -79,6 +79,6 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
  };
 
  export const authService = {
-//   loginUserFromDB,
-//   signUpUserIntoDB,
+   loginUserFromDB,
+   signUpUserIntoDB,
 // };
