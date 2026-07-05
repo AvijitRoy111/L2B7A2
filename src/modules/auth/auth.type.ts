@@ -2,8 +2,8 @@
 
  export type TSignUpUser = {
    name: string,
-//   email: string,
-//   password: string,
+   email: string,
+   password: string,
 //   role?: TRole
 // }
 
