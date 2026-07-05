@@ -4,7 +4,7 @@
    name: string,
    email: string,
    password: string,
-//   role?: TRole
+   role?: TRole
 // }
 
 
