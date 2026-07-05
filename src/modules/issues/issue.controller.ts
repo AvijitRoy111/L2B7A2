@@ -34,7 +34,7 @@
    try {
      const { id } = req.params;
 
-//     const result = await issueService.getSingleIssueFromDB(id as string);
+     const result = await issueService.getSingleIssueFromDB(id as string);
 
 //     if (!result) {
 //       return sendResponse(res, {
