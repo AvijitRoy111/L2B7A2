@@ -8,7 +8,7 @@
      const result = await issueService.getAllIssuesFromDB(req.query);
 
      sendResponse(res, {
-//       statusCode: 200,
+       statusCode: 200,
 //       success: true,
 //       message: "Issues fetched successfully",
 //       data: result,
