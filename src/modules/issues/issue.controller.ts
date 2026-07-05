@@ -5,7 +5,7 @@
 
  const getAllIssues = async (req: Request, res: Response) => {
    try {
-//     const result = await issueService.getAllIssuesFromDB(req.query);
+     const result = await issueService.getAllIssuesFromDB(req.query);
 
 //     sendResponse(res, {
 //       statusCode: 200,
