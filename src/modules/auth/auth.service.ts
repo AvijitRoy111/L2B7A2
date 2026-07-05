@@ -75,7 +75,7 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
      [name, email, hashedPassword, userRole],
    );
 
-//   return userdata.rows[0];
+   return userdata.rows[0];
 // };
 
 // export const authService = {
