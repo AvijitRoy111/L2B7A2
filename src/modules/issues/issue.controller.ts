@@ -7,7 +7,7 @@
    try {
      const result = await issueService.getAllIssuesFromDB(req.query);
 
-//     sendResponse(res, {
+     sendResponse(res, {
 //       statusCode: 200,
 //       success: true,
 //       message: "Issues fetched successfully",
