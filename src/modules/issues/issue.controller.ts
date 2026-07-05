@@ -12,8 +12,8 @@
        success: true,
        message: "Issues fetched successfully",
        data: result,
-//     });
-//   } catch (error) {
+     });
+   } catch (error) {
 //     const statusCode =
 //       error instanceof Error &&
 //       (error.message === "Invalid sort value" ||
