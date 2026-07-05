@@ -5,7 +5,7 @@
    email: string,
    password: string,
    role?: TRole
-// }
+ }
 
 
 // export type TLoginUser = {
