@@ -15,7 +15,7 @@
      });
    } catch (error) {
      const statusCode =
-//       error instanceof Error &&
+       error instanceof Error &&
 //       (error.message === "Invalid sort value" ||
 //         error.message === "Invalid issue type" ||
 //         error.message === "Invalid issue status")
