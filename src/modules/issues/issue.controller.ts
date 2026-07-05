@@ -14,7 +14,7 @@
        data: result,
      });
    } catch (error) {
-//     const statusCode =
+     const statusCode =
 //       error instanceof Error &&
 //       (error.message === "Invalid sort value" ||
 //         error.message === "Invalid issue type" ||
