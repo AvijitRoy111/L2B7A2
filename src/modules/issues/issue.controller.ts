@@ -28,7 +28,7 @@
        errors: error,
      });
    }
-// };
+ };
 
 // const getSingleIssue = async (req: Request, res: Response) => {
 //   try {
