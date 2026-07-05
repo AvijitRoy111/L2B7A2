@@ -1,7 +1,7 @@
  import type { Request, Response } from "express";
  import { issueService } from "./issue.service";
  import sendResponse from "../../utility/sendResponse";
-// import type { JwtPayload } from "jsonwebtoken";
+ import type { JwtPayload } from "jsonwebtoken";
 
 // const getAllIssues = async (req: Request, res: Response) => {
 //   try {
