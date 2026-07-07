@@ -63,7 +63,7 @@
    }
  };
 
-// const createIssue = async (req: Request, res: Response) => {
+ const createIssue = async (req: Request, res: Response) => {
 //   try {
 //     if (!req.user?.id) {
 //       return sendResponse(res, {
