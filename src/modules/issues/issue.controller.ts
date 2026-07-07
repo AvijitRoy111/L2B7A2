@@ -81,9 +81,9 @@
        statusCode: 201,
        success: true,
        message: "Issue created successfully",
-//       data: result,
-//     });
-//   } catch (error) {
+      data: result,
+     });
+   } catch (error) {
 //     const statusCode =
 //       error instanceof Error &&
 //       (error.message === "Title, description and type are required" ||
