@@ -75,9 +75,9 @@
 
      const result = await issueService.createIssueIntoDB(
        req.body,
-//       Number(req.user.id),
-//     );
-//     sendResponse(res, {
+       Number(req.user.id),
+     );
+     sendResponse(res, {
 //       statusCode: 201,
 //       success: true,
 //       message: "Issue created successfully",
