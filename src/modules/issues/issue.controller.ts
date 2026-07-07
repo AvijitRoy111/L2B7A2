@@ -51,7 +51,7 @@
        data: result,
      });
    } catch (error) {
-//     const statusCode =
+     const statusCode =
 //       error instanceof Error && error.message === "Invalid issue id" ? 400 : 500;
 
 //     sendResponse(res, {
