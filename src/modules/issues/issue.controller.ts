@@ -73,8 +73,8 @@
        });
      }
 
-//     const result = await issueService.createIssueIntoDB(
-//       req.body,
+     const result = await issueService.createIssueIntoDB(
+       req.body,
 //       Number(req.user.id),
 //     );
 //     sendResponse(res, {
