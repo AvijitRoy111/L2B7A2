@@ -173,9 +173,9 @@
          success: false,
          message: "Issue not found",
        });
-//     }
+     }
 
-//     sendResponse(res, {
+     sendResponse(res, {
 //       statusCode: 200,
 //       success: true,
 //       message: "Issue deleted successfully",
