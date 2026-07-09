@@ -119,8 +119,8 @@
        });
      }
 
-//     sendResponse(res, {
-//       statusCode: 200,
+     sendResponse(res, {
+       statusCode: 200,
 //       success: true,
 //       message: "Issue updated successfully",
 //       data: result,
