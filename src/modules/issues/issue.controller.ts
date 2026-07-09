@@ -142,8 +142,8 @@
          error.message === "Only open issues can be updated by contributor"
        ) {
          statusCode = 409;
-//       } else if (
-//         error.message === "Invalid issue type" ||
+       } else if (
+         error.message === "Invalid issue type" ||
 //         error.message === "Invalid issue status" ||
 //         error.message ===
 //           "Title must be less than or equal to 150 characters" ||
