@@ -140,8 +140,8 @@
          statusCode = 403;
        } else if (
          error.message === "Only open issues can be updated by contributor"
-//       ) {
-//         statusCode = 409;
+       ) {
+         statusCode = 409;
 //       } else if (
 //         error.message === "Invalid issue type" ||
 //         error.message === "Invalid issue status" ||
