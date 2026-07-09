@@ -105,8 +105,8 @@
  const updateIssue = async (req: Request, res: Response) => {
    const { id } = req.params;
    try {
-//     const result = await issueService.updateIssueIntoDB(
-//       id as string,
+    const result = await issueService.updateIssueIntoDB(
+       id as string,
 //       req.body,
 //       req.user as JwtPayload,
 //     );
