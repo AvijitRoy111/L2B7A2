@@ -167,8 +167,8 @@
      const { id } = req.params;
      const result = await issueService.deleteIssueFromDB(id as string);
 
-//     if (!result) {
-//       return sendResponse(res, {
+     if (!result) {
+       return sendResponse(res, {
 //         statusCode: 404,
 //         success: false,
 //         message: "Issue not found",
