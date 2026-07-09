@@ -93,9 +93,9 @@
          ? 400
          : 500;
 
-//     sendResponse(res, {
-//       statusCode,
-//       success: false,
+     sendResponse(res, {
+       statusCode,
+       success: false,
 //       message: error instanceof Error ? error.message : "Internal Server Error",
 //       errors: error,
 //     });
