@@ -113,8 +113,8 @@
 
      if (!result) {
        return sendResponse(res, {
-//         statusCode: 404,
-//         success: false,
+         statusCode: 404,
+         success: false,
 //         message: "Issue not found",
 //       });
 //     }
