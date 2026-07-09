@@ -138,8 +138,8 @@
          error.message === "Contributor cannot update issue status"
        ) {
          statusCode = 403;
-//       } else if (
-//         error.message === "Only open issues can be updated by contributor"
+       } else if (
+         error.message === "Only open issues can be updated by contributor"
 //       ) {
 //         statusCode = 409;
 //       } else if (
