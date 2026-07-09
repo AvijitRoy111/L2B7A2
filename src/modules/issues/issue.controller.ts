@@ -156,11 +156,11 @@
      sendResponse(res, {
        statusCode,
        success: false,
-//       message: error instanceof Error ? error.message : "Internal Server Error",
-//       errors: error,
-//     });
-//   }
-// };
+       message: error instanceof Error ? error.message : "Internal Server Error",
+       errors: error,
+     });
+   }
+ };
 
 // const deleteIssue = async (req: Request, res: Response) => {
 //   try {
