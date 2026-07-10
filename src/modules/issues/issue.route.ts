@@ -11,7 +11,7 @@
 
 
 
-// router.get("/", issueController.getAllIssues);
+ router.get("/", issueController.getAllIssues);
 
 // router.get("/:id", issueController.getSingleIssue);
 
