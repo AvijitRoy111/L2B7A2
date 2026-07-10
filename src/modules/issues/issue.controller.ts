@@ -197,6 +197,6 @@
    getAllIssues,
    getSingleIssue,
    createIssue,
-//   updateIssue,
+   updateIssue,
 //   deleteIssue,
 // };
