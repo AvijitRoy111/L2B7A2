@@ -13,7 +13,7 @@
 
  router.get("/", issueController.getAllIssues);
 
-// router.get("/:id", issueController.getSingleIssue);
+ router.get("/:id", issueController.getSingleIssue);
 
 // router.post("/", auth, issueController.createIssue);
 
