@@ -4,10 +4,10 @@
    TCreateIssuePayload,
    TIssueQuery,
    TUpdateIssuePayload,
-// } from "./issue.type";
+ } from "./issue.type";
 
-// const getAllIssuesFromDB = async (query: TIssueQuery) => {
-//   const { sort = "newest", type, status } = query;
+ const getAllIssuesFromDB = async (query: TIssueQuery) => {
+   const { sort = "newest", type, status } = query;
 
 //   if (sort !== "newest" && sort !== "oldest") {
 //     throw new Error("Invalid sort value");
