@@ -198,5 +198,5 @@
    getSingleIssue,
    createIssue,
    updateIssue,
-//   deleteIssue,
-// };
+   deleteIssue,
+ };

@@ -1,5 +1,5 @@
-// import { Router } from "express";
-// import auth from "../../middleware/auth.middleware";
+ import { Router } from "express";
+ import auth from "../../middleware/auth.middleware";
 // import { issueController } from "./issue.controller";
 // import role from "../../middleware/role.middleware";
 
