@@ -9,8 +9,8 @@
  const getAllIssuesFromDB = async (query: TIssueQuery) => {
    const { sort = "newest", type, status } = query;
 
-//   if (sort !== "newest" && sort !== "oldest") {
-//     throw new Error("Invalid sort value");
+   if (sort !== "newest" && sort !== "oldest") {
+     throw new Error("Invalid sort value");
 //   }
 
 //   if (type && type !== "bug" && type !== "feature_request") {
