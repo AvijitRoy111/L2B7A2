@@ -193,8 +193,8 @@
    }
  };
 
-// export const issueController = {
-//   getAllIssues,
+ export const issueController = {
+   getAllIssues,
 //   getSingleIssue,
 //   createIssue,
 //   updateIssue,
