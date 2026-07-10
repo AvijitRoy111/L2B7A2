@@ -1,7 +1,7 @@
  import type { JwtPayload } from "jsonwebtoken";
  import { pool } from "../../config/db";
-// import type {
-//   TCreateIssuePayload,
+ import type {
+   TCreateIssuePayload,
 //   TIssueQuery,
 //   TUpdateIssuePayload,
 // } from "./issue.type";
