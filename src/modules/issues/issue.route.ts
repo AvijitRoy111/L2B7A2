@@ -15,7 +15,7 @@
 
  router.get("/:id", issueController.getSingleIssue);
 
-// router.post("/", auth, issueController.createIssue);
+ router.post("/", auth, issueController.createIssue);
 
 // router.patch("/:id", auth, issueController.updateIssue);
 
