@@ -195,8 +195,8 @@
 
  export const issueController = {
    getAllIssues,
-//   getSingleIssue,
-//   createIssue,
+   getSingleIssue,
+   createIssue,
 //   updateIssue,
 //   deleteIssue,
 // };
