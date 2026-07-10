@@ -180,9 +180,9 @@
        success: true,
        message: "Issue deleted successfully",
      });
-//   } catch (error) {
-//     const statusCode =
-//       error instanceof Error && error.message === "Invalid issue id" ? 400 : 500;
+   } catch (error) {
+     const statusCode =
+       error instanceof Error && error.message === "Invalid issue id" ? 400 : 500;
 
 //     sendResponse(res, {
 //       statusCode,
