@@ -2,8 +2,8 @@
  import { pool } from "../../config/db";
  import type {
    TCreateIssuePayload,
-//   TIssueQuery,
-//   TUpdateIssuePayload,
+   TIssueQuery,
+   TUpdateIssuePayload,
 // } from "./issue.type";
 
 // const getAllIssuesFromDB = async (query: TIssueQuery) => {
