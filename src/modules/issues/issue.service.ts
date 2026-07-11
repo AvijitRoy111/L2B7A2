@@ -60,9 +60,9 @@
      return [];
    }
 
-//   const reporterIds = [...new Set(issues.map(( issues) =>  issues.reporter_id))];
+   const reporterIds = [...new Set(issues.map(( issues) =>  issues.reporter_id))];
 
-//   const reporterResult = await pool.query(
+   const reporterResult = await pool.query(
 //     `
 //       SELECT id, name, role
 //       FROM users
