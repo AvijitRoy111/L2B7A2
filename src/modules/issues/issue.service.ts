@@ -63,8 +63,8 @@
    const reporterIds = [...new Set(issues.map(( issues) =>  issues.reporter_id))];
 
    const reporterResult = await pool.query(
-//     `
-//       SELECT id, name, role
+     `
+       SELECT id, name, role
 //       FROM users
 //       WHERE id = ANY($1::int[])
 //     `,
