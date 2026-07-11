@@ -48,8 +48,8 @@
      `
        SELECT *
        FROM issues
-//       ${whereClause}
-//       ORDER BY created_at ${orderBy}
+       ${whereClause}
+       ORDER BY created_at ${orderBy}
 //     `,
 //     values,
 //   );
