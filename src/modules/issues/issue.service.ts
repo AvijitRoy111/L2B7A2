@@ -72,8 +72,8 @@
    );
 
    const reporterMap = new Map(
-//     reporterResult.rows.map((reporter) => [reporter.id, reporter]),
-//   );
+     reporterResult.rows.map((reporter) => [reporter.id, reporter]),
+   );
 
 //   const issuesWithReporter = issues.map((issue) => {
 //     const { reporter_id, ...issueData } = issue;
