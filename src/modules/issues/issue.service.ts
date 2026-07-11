@@ -20,10 +20,10 @@
    if (
      status &&
      status !== "open" &&
-//     status !== "in_progress" &&
-//     status !== "resolved"
-//   ) {
-//     throw new Error("Invalid issue status");
+     status !== "in_progress" &&
+    status !== "resolved"
+   ) {
+     throw new Error("Invalid issue status");
 //   }
 
 //   const conditions: string[] = [];
