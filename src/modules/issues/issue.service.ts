@@ -35,8 +35,8 @@
    }
 
    if (status) {
-//     values.push(status);
-//     conditions.push(`status = $${values.length}`);
+     values.push(status);
+     conditions.push(`status = $${values.length}`);
 //   }
 
 //   const whereClause =
