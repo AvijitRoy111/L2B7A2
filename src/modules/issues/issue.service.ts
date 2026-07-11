@@ -52,7 +52,7 @@
        ORDER BY created_at ${orderBy}
      `,
      values,
-//   );
+   );
 
 //   const issues = issueResult.rows;
 
