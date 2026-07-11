@@ -57,8 +57,8 @@
    const issues = issueResult.rows;
 
    if (issues.length === 0) {
-//     return [];
-//   }
+     return [];
+   }
 
 //   const reporterIds = [...new Set(issues.map(( issues) =>  issues.reporter_id))];
 
