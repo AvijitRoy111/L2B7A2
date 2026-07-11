@@ -42,7 +42,7 @@
    const whereClause =
      conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
-//   const orderBy = sort === "oldest" ? "ASC" : "DESC";
+   const orderBy = sort === "oldest" ? "ASC" : "DESC";
 
 //   const issueResult = await pool.query(
 //     `
