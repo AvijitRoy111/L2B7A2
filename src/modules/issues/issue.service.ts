@@ -80,7 +80,7 @@
 
      return {
        ...issueData,
-//       reporter: reporterMap.get(reporter_id),
+       reporter: reporterMap.get(reporter_id),
 //     };
 //   });
 
