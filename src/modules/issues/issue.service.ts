@@ -101,9 +101,9 @@
      [id],
    );
 
-//   const issue = issueResult.rows[0];
+   const issue = issueResult.rows[0];
 
-//   if (!issue) {
+   if (!issue) {
 //     return null;
 //   }
 
