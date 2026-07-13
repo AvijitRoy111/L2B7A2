@@ -124,8 +124,8 @@
    };
  };
 
-// const createIssueIntoDB = async (
-//   payload: TCreateIssuePayload,
+ const createIssueIntoDB = async (
+   payload: TCreateIssuePayload,
 //   reporterId: number,
 // ) => {
 //   const { title, description, type } = payload;
