@@ -121,8 +121,8 @@
    return {
      ...issueData,
      reporter: reporterResult.rows[0],
-//   };
-// };
+   };
+ };
 
 // const createIssueIntoDB = async (
 //   payload: TCreateIssuePayload,
