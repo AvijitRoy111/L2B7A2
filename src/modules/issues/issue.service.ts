@@ -167,12 +167,12 @@
  ) => {
    if (!Number.isInteger(Number(id))) {
      throw new Error("Invalid issue id");
-//   }
+   }
 
-//   const { title, description, type, status } = payload;
+   const { title, description, type, status } = payload;
 
-//   const issueResult = await pool.query(
-//     `
+   const issueResult = await pool.query(
+     `
 //     SELECT * FROM issues
 //     WHERE id = $1
 //   `,
