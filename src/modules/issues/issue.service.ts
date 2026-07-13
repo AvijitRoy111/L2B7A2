@@ -190,8 +190,8 @@
 
    if (!isMaintainer) {
      if (!isOwner) {
-//       throw new Error("Forbidden access");
-//     }
+       throw new Error("Forbidden access");
+     }
 
 //     if (issue.status !== "open") {
 //       throw new Error("Only open issues can be updated by contributor");
