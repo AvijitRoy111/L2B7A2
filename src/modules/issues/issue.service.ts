@@ -84,8 +84,8 @@
      };
    });
 
-//   return issuesWithReporter;
-// };
+   return issuesWithReporter;
+ };
 
 // const getSingleIssueFromDB = async (id: string) => {
 //   if (!Number.isInteger(Number(id))) {
