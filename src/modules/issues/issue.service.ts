@@ -165,8 +165,8 @@
    payload: TUpdateIssuePayload,
    user: JwtPayload,
  ) => {
-//   if (!Number.isInteger(Number(id))) {
-//     throw new Error("Invalid issue id");
+   if (!Number.isInteger(Number(id))) {
+     throw new Error("Invalid issue id");
 //   }
 
 //   const { title, description, type, status } = payload;
