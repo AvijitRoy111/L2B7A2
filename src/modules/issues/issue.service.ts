@@ -158,9 +158,9 @@
    );
 
    return result.rows[0];
-// };
+ };
 
-// const updateIssueIntoDB = async (
+ const updateIssueIntoDB = async (
 //   id: string,
 //   payload: TUpdateIssuePayload,
 //   user: JwtPayload,
