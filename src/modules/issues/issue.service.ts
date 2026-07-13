@@ -161,8 +161,8 @@
  };
 
  const updateIssueIntoDB = async (
-//   id: string,
-//   payload: TUpdateIssuePayload,
+   id: string,
+   payload: TUpdateIssuePayload,
 //   user: JwtPayload,
 // ) => {
 //   if (!Number.isInteger(Number(id))) {
