@@ -176,10 +176,10 @@
      SELECT * FROM issues
      WHERE id = $1
    `,
-//     [id],
-//   );
+     [id],
+   );
 
-//   const issue = issueResult.rows[0];
+   const issue = issueResult.rows[0];
 
 //   if (!issue) {
 //     throw new Error("Issue not found");
