@@ -195,9 +195,9 @@
 
      if (issue.status !== "open") {
        throw new Error("Only open issues can be updated by contributor");
-//     }
+     }
 
-//     if (status) {
+     if (status) {
 //       throw new Error("Contributor cannot update issue status");
 //     }
 //   }
