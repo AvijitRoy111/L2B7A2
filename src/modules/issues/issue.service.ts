@@ -146,8 +146,8 @@
      throw new Error("Invalid issue type");
    }
 
-//   const result = await pool.query(
-//     `
+   const result = await pool.query(
+     `
         
 //         INSERT INTO issues (title, description, type, reporter_id)
 //         VALUES ($1, $2, $3, $4)
