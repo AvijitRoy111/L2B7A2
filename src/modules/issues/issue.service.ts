@@ -109,10 +109,10 @@
 
    const reporterResult = await pool.query(
      `
-//       SELECT id, name, role
-//       FROM users
-//       WHERE id = $1
-//     `,
+       SELECT id, name, role
+       FROM users
+       WHERE id = $1
+     `,
 //     [issue.reporter_id],
 //   );
 
