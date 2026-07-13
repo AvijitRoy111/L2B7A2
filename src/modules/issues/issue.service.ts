@@ -98,8 +98,8 @@
        FROM issues
        WHERE id = $1
      `,
-//     [id],
-//   );
+     [id],
+   );
 
 //   const issue = issueResult.rows[0];
 
