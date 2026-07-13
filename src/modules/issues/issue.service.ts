@@ -81,8 +81,8 @@
      return {
        ...issueData,
        reporter: reporterMap.get(reporter_id),
-//     };
-//   });
+     };
+   });
 
 //   return issuesWithReporter;
 // };
