@@ -153,8 +153,8 @@
          VALUES ($1, $2, $3, $4)
          RETURNING *
         
-//         `,
-//     [title, description, type, reporterId],
+         `,
+     [title, description, type, reporterId],
 //   );
 
 //   return result.rows[0];
