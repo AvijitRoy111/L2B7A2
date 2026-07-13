@@ -193,8 +193,8 @@
        throw new Error("Forbidden access");
      }
 
-//     if (issue.status !== "open") {
-//       throw new Error("Only open issues can be updated by contributor");
+     if (issue.status !== "open") {
+       throw new Error("Only open issues can be updated by contributor");
 //     }
 
 //     if (status) {
