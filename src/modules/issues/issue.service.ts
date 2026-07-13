@@ -163,8 +163,8 @@
  const updateIssueIntoDB = async (
    id: string,
    payload: TUpdateIssuePayload,
-//   user: JwtPayload,
-// ) => {
+   user: JwtPayload,
+ ) => {
 //   if (!Number.isInteger(Number(id))) {
 //     throw new Error("Invalid issue id");
 //   }
