@@ -104,8 +104,8 @@
    const issue = issueResult.rows[0];
 
    if (!issue) {
-//     return null;
-//   }
+     return null;
+   }
 
 //   const reporterResult = await pool.query(
 //     `
