@@ -181,9 +181,9 @@
 
    const issue = issueResult.rows[0];
 
-//   if (!issue) {
-//     throw new Error("Issue not found");
-//   }
+   if (!issue) {
+     throw new Error("Issue not found");
+   }
 
 //   const isMaintainer = user.role === "maintainer";
 //   const isOwner = issue.reporter_id === user.id;
