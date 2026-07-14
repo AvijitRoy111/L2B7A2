@@ -227,8 +227,8 @@
      `
      UPDATE issues
      SET
-//     title = COALESCE($1, title),
-//     description = COALESCE($2, description),
+     title = COALESCE($1, title),
+    description = COALESCE($2, description),
 //     type = COALESCE($3, type),
 //     status = COALESCE($4, status),
 //     updated_at = NOW()
