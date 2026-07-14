@@ -246,8 +246,8 @@
      throw new Error("Invalid issue id");
    }
 
-//   const result = await pool.query(
-//     `
+   const result = await pool.query(
+     `
 //     DELETE FROM issues
 //     WHERE id = $1
 //     RETURNING *
