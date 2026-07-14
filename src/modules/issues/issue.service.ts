@@ -236,7 +236,7 @@
      RETURNING *
    `,
      [title, description, type, status, id],
-//   );
+   );
 
 //   return result.rows[0];
 // };
