@@ -233,7 +233,7 @@
      status = COALESCE($4, status),
      updated_at = NOW()
      WHERE id = $5
-//     RETURNING *
+     RETURNING *
 //   `,
 //     [title, description, type, status, id],
 //   );
