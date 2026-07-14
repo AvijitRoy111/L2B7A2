@@ -225,8 +225,8 @@
 
    const result = await pool.query(
      `
-//     UPDATE issues
-//     SET
+     UPDATE issues
+     SET
 //     title = COALESCE($1, title),
 //     description = COALESCE($2, description),
 //     type = COALESCE($3, type),
