@@ -250,8 +250,8 @@
      `
      DELETE FROM issues
      WHERE id = $1
-//     RETURNING *
-//   `,
+     RETURNING *
+   `,
 //     [id],
 //   );
 
