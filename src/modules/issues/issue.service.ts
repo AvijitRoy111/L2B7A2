@@ -223,8 +223,8 @@
      throw new Error("Invalid issue status");
    }
 
-//   const result = await pool.query(
-//     `
+   const result = await pool.query(
+     `
 //     UPDATE issues
 //     SET
 //     title = COALESCE($1, title),
