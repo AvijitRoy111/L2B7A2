@@ -198,11 +198,11 @@
      }
 
      if (status) {
-//       throw new Error("Contributor cannot update issue status");
-//     }
-//   }
+       throw new Error("Contributor cannot update issue status");
+     }
+   }
 
-//   if (title && title.length > 150) {
+   if (title && title.length > 150) {
 //     throw new Error("Title must be less than or equal to 150 characters");
 //   }
 
