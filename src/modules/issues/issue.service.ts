@@ -234,8 +234,8 @@
      updated_at = NOW()
      WHERE id = $5
      RETURNING *
-//   `,
-//     [title, description, type, status, id],
+   `,
+     [title, description, type, status, id],
 //   );
 
 //   return result.rows[0];
