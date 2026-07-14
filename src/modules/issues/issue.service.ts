@@ -216,10 +216,10 @@
 
    if (
      status &&
-//     status !== "open" &&
-//     status !== "in_progress" &&
-//     status !== "resolved"
-//   ) {
+    status !== "open" &&
+     status !== "in_progress" &&
+     status !== "resolved"
+   ) {
 //     throw new Error("Invalid issue status");
 //   }
 
