@@ -8,8 +8,8 @@
    email: string;
    password: string;
    role: TRole;
-//   createdAt: Date;
-//   updatedAt: Date;
+  createdAt: Date;
+  updatedAt: Date;
 // }
 
 // export type TCreateUserPayload = {
