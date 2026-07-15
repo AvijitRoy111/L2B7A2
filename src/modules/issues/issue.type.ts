@@ -6,7 +6,7 @@
    type: TIssueType;
  };
 
-// export type TUpdateIssuePayload = {
+ export type TUpdateIssuePayload = {
 //   title?: string;
 //   description?: string;
 //   type?: TIssueType;
