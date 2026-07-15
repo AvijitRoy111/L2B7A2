@@ -255,8 +255,8 @@
      [id],
    );
 
-//   return result.rows[0];
-// };
+   return result.rows[0];
+ };
 
 // export const issueService = {
 //   getAllIssuesFromDB,
