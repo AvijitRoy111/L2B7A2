@@ -263,5 +263,5 @@
    getSingleIssueFromDB,
    createIssueIntoDB,
    updateIssueIntoDB,
-//   deleteIssueFromDB,
+   deleteIssueFromDB,
 // };
