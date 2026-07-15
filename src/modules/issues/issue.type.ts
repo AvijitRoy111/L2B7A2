@@ -7,7 +7,7 @@
  };
 
  export type TUpdateIssuePayload = {
-//   title?: string;
+   title?: string;
 //   description?: string;
 //   type?: TIssueType;
 //   status?: TIssueStatus;
