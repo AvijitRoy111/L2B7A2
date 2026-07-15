@@ -1,8 +1,8 @@
  import type { TIssueStatus, TIssueType } from "../../types/issues.type";
 
  export type TCreateIssuePayload = {
-//   title: string;
-//   description: string;
+   title: string;
+   description: string;
 //   type: TIssueType;
 // };
 
