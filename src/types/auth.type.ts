@@ -7,7 +7,7 @@
    name: string;
    email: string;
    password: string;
-//   role: TRole;
+   role: TRole;
 //   createdAt: Date;
 //   updatedAt: Date;
 // }
