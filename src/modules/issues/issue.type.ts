@@ -3,7 +3,7 @@
  export type TCreateIssuePayload = {
    title: string;
    description: string;
-//   type: TIssueType;
+   type: TIssueType;
 // };
 
 // export type TUpdateIssuePayload = {
