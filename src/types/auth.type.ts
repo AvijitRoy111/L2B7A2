@@ -18,8 +18,8 @@
    password: string;
  };
 
-// export type TLoginPayload = {
-//   email: string;
+ export type TLoginPayload = {
+   email: string;
 //   password: string;
 // };
 
