@@ -10,9 +10,9 @@
    role: TRole;
   createdAt: Date;
   updatedAt: Date;
-// }
+ }
 
-// export type TCreateUserPayload = {
+ export type TCreateUserPayload = {
 //   name: string;
 //   email: string;
 //   password: string;
