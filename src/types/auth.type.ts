@@ -21,6 +21,6 @@
  export type TLoginPayload = {
    email: string;
    password: string;
-// };
+ };
 
 // export type TUserWithoutPassword = Omit<IUser, "password">;
