@@ -23,4 +23,4 @@
    password: string;
  };
 
-// export type TUserWithoutPassword = Omit<IUser, "password">;
+ export type TUserWithoutPassword = Omit<IUser, "password">;
