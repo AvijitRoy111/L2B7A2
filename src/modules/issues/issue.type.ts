@@ -10,7 +10,7 @@
    title?: string;
    description?: string;
    type?: TIssueType;
-//   status?: TIssueStatus;
+   status?: TIssueStatus;
 // };
 
 // export type TIssueQuery = {
