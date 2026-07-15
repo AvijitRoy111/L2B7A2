@@ -261,7 +261,7 @@
  export const issueService = {
    getAllIssuesFromDB,
    getSingleIssueFromDB,
-//   createIssueIntoDB,
+   createIssueIntoDB,
 //   updateIssueIntoDB,
 //   deleteIssueFromDB,
 // };
