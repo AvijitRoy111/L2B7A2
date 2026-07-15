@@ -260,7 +260,7 @@
 
  export const issueService = {
    getAllIssuesFromDB,
-//   getSingleIssueFromDB,
+   getSingleIssueFromDB,
 //   createIssueIntoDB,
 //   updateIssueIntoDB,
 //   deleteIssueFromDB,
