@@ -11,7 +11,7 @@
    description?: string;
    type?: TIssueType;
    status?: TIssueStatus;
-// };
+ };
 
 // export type TIssueQuery = {
 //   sort?: string;
