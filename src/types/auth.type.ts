@@ -1,6 +1,6 @@
  export type TRole =
   | "contributor"
-//   | "maintainer";
+   | "maintainer";
 
 // export interface IUser {
 //   id: number;
