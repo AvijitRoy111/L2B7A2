@@ -15,6 +15,6 @@
 
  export type TIssueQuery = {
    sort?: string;
-//   type?: string;
+   type?: string;
 //   status?: string;
 // };
