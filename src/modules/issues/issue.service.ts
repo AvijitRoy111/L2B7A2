@@ -258,8 +258,8 @@
    return result.rows[0];
  };
 
-// export const issueService = {
-//   getAllIssuesFromDB,
+ export const issueService = {
+   getAllIssuesFromDB,
 //   getSingleIssueFromDB,
 //   createIssueIntoDB,
 //   updateIssueIntoDB,
