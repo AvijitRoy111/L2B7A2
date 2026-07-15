@@ -1,4 +1,4 @@
-// export type TRole =
+ export type TRole =
 //   | "contributor"
 //   | "maintainer";
 
