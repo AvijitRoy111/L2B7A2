@@ -8,8 +8,8 @@
 
  export type TUpdateIssuePayload = {
    title?: string;
-//   description?: string;
-//   type?: TIssueType;
+   description?: string;
+   type?: TIssueType;
 //   status?: TIssueStatus;
 // };
 
