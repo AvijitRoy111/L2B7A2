@@ -4,7 +4,7 @@
    | "resolved";
 
 export type TIssueType =
-//   | "bug"
+  | "bug"
 //   | "feature_request";
 
 // export interface IIssue {
