@@ -7,7 +7,7 @@ export type TIssueType =
   | "bug"
   | "feature_request";
 
-// export interface IIssue {
+export interface IIssue {
 //   id: number;
 //   title: string;
 //   description: string;
