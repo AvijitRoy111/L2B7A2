@@ -18,7 +18,7 @@ export interface IIssue {
   updatedAt: Date;
 }
 
-// export interface ICreateIssuePayload {
+export interface ICreateIssuePayload {
 //   title: string;
 //   description: string;
 //   type: TIssueType;
