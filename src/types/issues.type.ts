@@ -1,7 +1,7 @@
  export type TIssueStatus =
   | "open"
   | "in_progress"
-//   | "resolved";
+   | "resolved";
 
 // export type TIssueType =
 //   | "bug"
