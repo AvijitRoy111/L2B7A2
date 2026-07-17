@@ -1,5 +1,5 @@
  export type TIssueStatus =
-//   | "open"
+   | "open"
 //   | "in_progress"
 //   | "resolved";
 
