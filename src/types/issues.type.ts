@@ -12,7 +12,7 @@ export interface IIssue {
   title: string;
   description: string;
   type: TIssueType;
-//   status: TIssueStatus;
+  status: TIssueStatus;
 //   reporterId: number;
 //   createdAt: Date;
 //   updatedAt: Date;
