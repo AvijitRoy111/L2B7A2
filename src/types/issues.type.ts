@@ -8,7 +8,7 @@ export type TIssueType =
   | "feature_request";
 
 export interface IIssue {
-//   id: number;
+  id: number;
 //   title: string;
 //   description: string;
 //   type: TIssueType;
