@@ -19,7 +19,7 @@ export interface IIssue {
 }
 
 export interface ICreateIssuePayload {
-//   title: string;
+  title: string;
 //   description: string;
 //   type: TIssueType;
 // }
