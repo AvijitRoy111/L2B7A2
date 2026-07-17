@@ -16,7 +16,7 @@ export interface IIssue {
   reporterId: number;
   createdAt: Date;
   updatedAt: Date;
-// }
+}
 
 // export interface ICreateIssuePayload {
 //   title: string;
