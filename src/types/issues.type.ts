@@ -3,7 +3,7 @@
   | "in_progress"
    | "resolved";
 
-// export type TIssueType =
+export type TIssueType =
 //   | "bug"
 //   | "feature_request";
 
