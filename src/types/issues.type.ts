@@ -9,7 +9,7 @@ export type TIssueType =
 
 export interface IIssue {
   id: number;
-//   title: string;
+  title: string;
 //   description: string;
 //   type: TIssueType;
 //   status: TIssueStatus;
