@@ -15,7 +15,7 @@ export interface IIssue {
   status: TIssueStatus;
   reporterId: number;
   createdAt: Date;
-//   updatedAt: Date;
+  updatedAt: Date;
 // }
 
 // export interface ICreateIssuePayload {
