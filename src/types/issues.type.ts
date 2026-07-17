@@ -11,7 +11,7 @@ export interface IIssue {
   id: number;
   title: string;
   description: string;
-//   type: TIssueType;
+  type: TIssueType;
 //   status: TIssueStatus;
 //   reporterId: number;
 //   createdAt: Date;
