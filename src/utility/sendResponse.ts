@@ -6,7 +6,7 @@
    message: string;
    data?: T;
    errors?: unknown;
-// }
+ }
 
 // const sendResponse = <T>(
 //   res: Response,
