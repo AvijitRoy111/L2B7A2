@@ -5,7 +5,7 @@
    success: boolean;
    message: string;
    data?: T;
-//   errors?: unknown;
+   errors?: unknown;
 // }
 
 // const sendResponse = <T>(
