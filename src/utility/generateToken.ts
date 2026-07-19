@@ -6,7 +6,7 @@
      payload as JwtPayload,
      config.ACCESS_SECRET as string,
      {
-//       expiresIn: "1d",
+       expiresIn: "1d",
 //     },
 //   );
 
