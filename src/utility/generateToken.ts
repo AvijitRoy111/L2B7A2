@@ -11,7 +11,7 @@
    );
 
 
-//   return {token};
+   return {token};
 // };
 
 // export default generateToken;
