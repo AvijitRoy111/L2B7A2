@@ -8,7 +8,7 @@
    errors?: unknown;
  }
 
-// const sendResponse = <T>(
+ const sendResponse = <T>(
 //   res: Response,
 //   payload: TResponse<T>,
 // ): Response => {
