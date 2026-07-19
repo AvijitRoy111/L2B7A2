@@ -4,7 +4,7 @@
  const generateToken = (payload: JwtPayload) => {
    const token = jwt.sign(
      payload as JwtPayload,
-//     config.ACCESS_SECRET as string,
+     config.ACCESS_SECRET as string,
 //     {
 //       expiresIn: "1d",
 //     },
