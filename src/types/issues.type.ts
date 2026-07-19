@@ -28,5 +28,5 @@ export interface IUpdateIssuePayload {
   title?: string;
   description?: string;
    type?: TIssueType;
-//   status?: TIssueStatus;
+   status?: TIssueStatus;
 // }
