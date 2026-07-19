@@ -2,7 +2,7 @@
  import config from "../config";
 
  const generateToken = (payload: JwtPayload) => {
-//   const token = jwt.sign(
+   const token = jwt.sign(
 //     payload as JwtPayload,
 //     config.ACCESS_SECRET as string,
 //     {
