@@ -1,4 +1,4 @@
-// import jwt, { type JwtPayload } from "jsonwebtoken";
+ import jwt, { type JwtPayload } from "jsonwebtoken";
 // import config from "../config";
 
 // const generateToken = (payload: JwtPayload) => {
