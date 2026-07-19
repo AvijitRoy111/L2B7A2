@@ -3,7 +3,7 @@
  interface TResponse<T> {
    statusCode: number;
    success: boolean;
-//   message: string;
+   message: string;
 //   data?: T;
 //   errors?: unknown;
 // }
