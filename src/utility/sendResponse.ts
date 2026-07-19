@@ -1,6 +1,6 @@
  import type { Response } from "express";
 
-// interface TResponse<T> {
+ interface TResponse<T> {
 //   statusCode: number;
 //   success: boolean;
 //   message: string;
