@@ -13,7 +13,7 @@
    payload: TResponse<T>,
  ): Response => {
    return res.status(payload.statusCode).json({
-//     success: payload.success,
+     success: payload.success,
 //     message: payload.message,
 //     data: payload.data,
 //     errors: payload.errors,
