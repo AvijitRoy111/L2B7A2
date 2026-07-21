@@ -13,7 +13,7 @@
  app.use(express.urlencoded({ extended: true }));
 
  app.use(
-//   cors({
+   cors({
 //     origin: "http://localhost:5000",
 //   }),
 // );
