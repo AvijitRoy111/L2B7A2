@@ -16,7 +16,7 @@
    cors({
      origin: "http://localhost:5000",
    }),
-// );
+ );
 
 // app.get("/", (req, res) => {
 //   res.status(200).json({
