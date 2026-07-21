@@ -15,7 +15,7 @@
    return res.status(payload.statusCode).json({
      success: payload.success,
      message: payload.message,
-//     data: payload.data,
+     data: payload.data,
 //     errors: payload.errors,
 //   });
 // };
