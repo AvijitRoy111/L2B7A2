@@ -8,7 +8,7 @@
  const app: Application = express();
 
  app.use(cookie());
-// app.use(express.json());
+ app.use(express.json());
 // app.use(express.text());
 // app.use(express.urlencoded({ extended: true }));
 
