@@ -10,7 +10,7 @@
 
  const sendResponse = <T>(
    res: Response,
-//   payload: TResponse<T>,
+   payload: TResponse<T>,
 // ): Response => {
 //   return res.status(payload.statusCode).json({
 //     success: payload.success,
