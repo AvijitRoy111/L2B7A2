@@ -5,7 +5,7 @@
  import { authRoute } from "./modules/auth/auth.route";
  import { issueRoute } from "./modules/issues/issue.route";
 
-// const app: Application = express();
+ const app: Application = express();
 
 // app.use(cookie());
 // app.use(express.json());
