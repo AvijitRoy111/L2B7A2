@@ -11,7 +11,7 @@
  const sendResponse = <T>(
    res: Response,
    payload: TResponse<T>,
-// ): Response => {
+ ): Response => {
 //   return res.status(payload.statusCode).json({
 //     success: payload.success,
 //     message: payload.message,
