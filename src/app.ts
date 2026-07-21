@@ -1,6 +1,6 @@
  import express, { type Application } from "express";
  import cors from "cors";
-// import cookie from "cookie-parser";
+ import cookie from "cookie-parser";
 // import globalErrorhandler from "./middleware/error.middleware";
 // import { authRoute } from "./modules/auth/auth.route";
 // import { issueRoute } from "./modules/issues/issue.route";
