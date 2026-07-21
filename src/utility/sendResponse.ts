@@ -14,7 +14,7 @@
  ): Response => {
    return res.status(payload.statusCode).json({
      success: payload.success,
-//     message: payload.message,
+     message: payload.message,
 //     data: payload.data,
 //     errors: payload.errors,
 //   });
