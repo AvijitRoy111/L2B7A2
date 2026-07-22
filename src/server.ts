@@ -1,7 +1,7 @@
  import app from "./app";
  import config from "./config";
  import { initDB } from "./config/db";
-// import 'dotenv/config';
+ import 'dotenv/config';
 
 // (async () => {
 //     const authKey = process.env.AUTH_API_KEY;
