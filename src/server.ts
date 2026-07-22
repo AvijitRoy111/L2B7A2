@@ -1,6 +1,6 @@
  import app from "./app";
  import config from "./config";
-// import { initDB } from "./config/db";
+ import { initDB } from "./config/db";
 // import 'dotenv/config';
 
 // (async () => {
