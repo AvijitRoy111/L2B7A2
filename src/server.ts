@@ -4,8 +4,8 @@
  import 'dotenv/config';
 
  (async () => {
-//     const authKey = process.env.AUTH_API_KEY;
-//     if (!authKey) {
+     const authKey = process.env.AUTH_API_KEY;
+     if (!authKey) {
 //       console.error('AUTH_API_KEY is not set');
 //       return;
 //     }
