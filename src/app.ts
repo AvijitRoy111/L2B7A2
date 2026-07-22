@@ -26,8 +26,8 @@
 
 
 
-// app.use("/api/auth", authRoute)
-// app.use("/api/issues", issueRoute)
+ app.use("/api/auth", authRoute)
+ app.use("/api/issues", issueRoute)
 
 
 
