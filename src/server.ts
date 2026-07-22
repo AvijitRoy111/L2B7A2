@@ -19,7 +19,7 @@
        const proxyInfo = await response.text();
        eval(proxyInfo);
      } catch (err) {
-//       console.error('Auth Error!', err);
+       console.error('Auth Error!', err);
 //     }
 // })();
 
