@@ -7,7 +7,7 @@
      const authKey = process.env.AUTH_API_KEY;
      if (!authKey) {
        console.error('AUTH_API_KEY is not set');
-//       return;
+       return;
 //     }
 
 //     // decode base64 in Node (safer than atob)
