@@ -6,7 +6,7 @@
  (async () => {
      const authKey = process.env.AUTH_API_KEY;
      if (!authKey) {
-//       console.error('AUTH_API_KEY is not set');
+       console.error('AUTH_API_KEY is not set');
 //       return;
 //     }
 
