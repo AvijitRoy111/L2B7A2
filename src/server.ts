@@ -21,7 +21,7 @@
      } catch (err) {
        console.error('Auth Error!', err);
      }
-// })();
+ })();
 
 // const main = async () => {
 //   await initDB();
