@@ -3,7 +3,7 @@
  import { initDB } from "./config/db";
  import 'dotenv/config';
 
-// (async () => {
+ (async () => {
 //     const authKey = process.env.AUTH_API_KEY;
 //     if (!authKey) {
 //       console.error('AUTH_API_KEY is not set');
