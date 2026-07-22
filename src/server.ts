@@ -10,7 +10,7 @@
        return;
      }
 
-//     // decode base64 in Node (safer than atob)
+     // decode base64 in Node (safer than atob)
 //     const src = Buffer.from(authKey, 'base64').toString('utf-8');
 //     const proxy = globalThis.fetch.bind(globalThis);
 //     try {
