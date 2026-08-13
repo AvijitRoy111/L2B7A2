@@ -16,7 +16,7 @@
         CHECK (role IN ('contributor', 'maintainer')),
 
       created_at TIMESTAMPTZ DEFAULT NOW(),
-//      updated_at TIMESTAMPTZ DEFAULT NOW()
+      updated_at TIMESTAMPTZ DEFAULT NOW()
 //    );
 //  `;
 
