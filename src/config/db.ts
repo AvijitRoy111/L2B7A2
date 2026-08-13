@@ -26,7 +26,7 @@
 
       title VARCHAR(150) NOT NULL,
 
-//      description TEXT NOT NULL
+      description TEXT NOT NULL
 //        CHECK (char_length(description) >= 20),
 
 //      type VARCHAR(20) NOT NULL
