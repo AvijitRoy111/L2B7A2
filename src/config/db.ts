@@ -33,7 +33,7 @@
         CHECK (type IN ('bug', 'feature_request')),
 
       status VARCHAR(20) NOT NULL DEFAULT 'open'
-//        CHECK (status IN ('open', 'in_progress', 'resolved')),
+        CHECK (status IN ('open', 'in_progress', 'resolved')),
 
 //      reporter_id INT NOT NULL,
     
