@@ -3,7 +3,7 @@
 
  dotenv.config({
    path: path.join(process.cwd(), ".env"),
-// });
+ });
 
 //  const config = {
 //    PORT: process.env.PORT,
