@@ -41,7 +41,7 @@
       updated_at TIMESTAMPTZ DEFAULT NOW(),
 
       CONSTRAINT fk_reporter
-//        FOREIGN KEY (reporter_id)
+        FOREIGN KEY (reporter_id)
 //        REFERENCES users(id)
 //        ON DELETE CASCADE
 //    );
