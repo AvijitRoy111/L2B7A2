@@ -47,7 +47,7 @@
     );
   `;
 
-//  export const initDB = async (): Promise<void> => {
+  export const initDB = async (): Promise<void> => {
 //    try {
 //      await pool.query(createUsersTable);
 //      await pool.query(createIssuesTable);
