@@ -52,8 +52,8 @@
       await pool.query(createUsersTable);
       await pool.query(createIssuesTable);
 
-//      console.log("Database initialized successfully");
-//    } catch (error) {
+      console.log("Database initialized successfully");
+    } catch (error) {
 //      console.error("Database initialization failed:", error);
 //    }
 //  };
