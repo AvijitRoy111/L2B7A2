@@ -48,7 +48,7 @@
   `;
 
   export const initDB = async (): Promise<void> => {
-//    try {
+    try {
 //      await pool.query(createUsersTable);
 //      await pool.query(createIssuesTable);
 
