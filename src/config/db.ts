@@ -45,7 +45,7 @@
         REFERENCES users(id)
         ON DELETE CASCADE
     );
-//  `;
+  `;
 
 //  export const initDB = async (): Promise<void> => {
 //    try {
