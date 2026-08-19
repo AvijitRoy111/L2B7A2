@@ -18,7 +18,7 @@
       }
 
       const decoded = jwt.verify(
-//        token,
+        token,
 //        config.ACCESS_SECRET as string,
 //      ) as JwtPayload;
 
