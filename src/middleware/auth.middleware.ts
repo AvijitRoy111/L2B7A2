@@ -10,7 +10,7 @@
       const token = req.headers.authorization;
 
       if (!token) {
-//        return sendResponse(res, {
+        return sendResponse(res, {
 //          statusCode: 401,
 //          success: false,
 //          message: "Unauthorized access!!",
