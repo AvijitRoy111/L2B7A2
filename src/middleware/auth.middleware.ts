@@ -19,7 +19,7 @@
 
       const decoded = jwt.verify(
         token,
-//        config.ACCESS_SECRET as string,
+        config.ACCESS_SECRET as string,
 //      ) as JwtPayload;
 
 //      const userData = await pool.query(
