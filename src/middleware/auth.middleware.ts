@@ -9,7 +9,7 @@
     try {
       const token = req.headers.authorization;
 
-//      if (!token) {
+      if (!token) {
 //        return sendResponse(res, {
 //          statusCode: 401,
 //          success: false,
