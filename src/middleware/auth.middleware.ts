@@ -2,7 +2,7 @@
   import config from "../config";
   import jwt from "jsonwebtoken";
   import { pool } from "../config/db";
-//  import sendResponse from "../utility/sendResponse";
+  import sendResponse from "../utility/sendResponse";
 //  import type { NextFunction, Request, Response } from "express";
 
 //  const auth = async (req: Request, res: Response, next: NextFunction) => {
