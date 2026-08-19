@@ -23,7 +23,7 @@
       ) as JwtPayload;
 
       const userData = await pool.query(
-//        `
+        `
 //          SELECT id, name, email, role FROM users WHERE id=$1
 //          `,
 //        [decoded.id],
