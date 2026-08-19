@@ -7,7 +7,7 @@
 
   const auth = async (req: Request, res: Response, next: NextFunction) => {
     try {
-//      const token = req.headers.authorization;
+      const token = req.headers.authorization;
 
 //      if (!token) {
 //        return sendResponse(res, {
