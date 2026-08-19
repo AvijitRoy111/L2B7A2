@@ -22,7 +22,7 @@
         config.ACCESS_SECRET as string,
       ) as JwtPayload;
 
-//      const userData = await pool.query(
+      const userData = await pool.query(
 //        `
 //          SELECT id, name, email, role FROM users WHERE id=$1
 //          `,
