@@ -1,7 +1,7 @@
   import type { NextFunction, Request, Response } from "express";
   import config from "../config";
 
-//  const Errorhandler = (
+  const Errorhandler = (
 //    err: unknown,
 //    _req: Request,
 //    res: Response,
