@@ -29,7 +29,7 @@
         [decoded.id],
       );
 
-//      if (userData.rows.length === 0) {
+      if (userData.rows.length === 0) {
 //        return sendResponse(res, {
 //          statusCode: 404,
 //          success: false,
