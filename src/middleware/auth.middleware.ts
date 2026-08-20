@@ -39,7 +39,7 @@
 
       req.user = decoded;
 
-//      next();
+      next();
 //    } catch (error) {
 //      return sendResponse(res, {
 //        statusCode: 401,
