@@ -48,6 +48,6 @@
         errors: error,
       });
     }
-//  };
+  };
 
 //  export default auth;
