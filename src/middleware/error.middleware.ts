@@ -14,7 +14,7 @@
       message,
       errors: config.NODE_ENV === "development" && err instanceof Error ? err.stack : null,
     });
-//  };
+  };
 
 
 //  export default Errorhandler;
