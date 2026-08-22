@@ -18,7 +18,7 @@
         //  ? 401
         //  : 500;
 
-     sendResponse(res, {
+    //  sendResponse(res, {
        statusCode,
        success: false,
        message: error instanceof Error ? error.message : "Internal Server Error",
