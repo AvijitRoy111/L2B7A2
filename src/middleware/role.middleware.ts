@@ -12,7 +12,7 @@
        });
      }
 
-    //  if (!roles.includes(req.user.role)) {
+     if (!roles.includes(req.user.role)) {
       //  return sendResponse(res, {
         //  statusCode: 403,
         //  success: false,
