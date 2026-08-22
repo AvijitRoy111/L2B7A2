@@ -21,6 +21,6 @@
     }
      next();
    };
-//  };
+ };
 
 //  export default role;
