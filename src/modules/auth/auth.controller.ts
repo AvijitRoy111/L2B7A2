@@ -12,7 +12,7 @@
       //  message: "Login successful",
       //  data: result,
     //  });
-   } catch (error) {
+  //  } catch (error) {
      const statusCode =
        error instanceof Error && error.message.startsWith("Invalid credentials")
          ? 401
