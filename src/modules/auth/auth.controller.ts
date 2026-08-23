@@ -37,7 +37,7 @@
       //  message: "User registered successfully",
       //  data: result,
     //  });
-   } catch (error) {
+  //  } catch (error) {
      sendResponse(res, {
        statusCode:
          error instanceof Error && error.message === "User already exists"
