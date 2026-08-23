@@ -29,7 +29,7 @@
 
 //  const signUpUser = async (req: Request, res: Response) => {
   //  try {
-     const result = await authService.signUpUserIntoDB(req.body);
+    //  const result = await authService.signUpUserIntoDB(req.body);
 
      sendResponse(res, {
        statusCode: 201,
