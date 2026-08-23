@@ -46,7 +46,7 @@
               //  error.message === "Name, email and password are required!"
             //  ? 400
             //  : 500,
-       success: false,
+      //  success: false,
        message: error instanceof Error ? error.message : "Internal Server Error",
        errors: error,
      });
