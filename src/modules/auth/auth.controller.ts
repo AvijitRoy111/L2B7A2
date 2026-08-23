@@ -35,7 +35,7 @@
       //  statusCode: 201,
       //  success: true,
       //  message: "User registered successfully",
-       data: result,
+      //  data: result,
      });
    } catch (error) {
      sendResponse(res, {
