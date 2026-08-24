@@ -33,7 +33,7 @@
 
      sendResponse(res, {
        statusCode: 201,
-      //  success: true,
+       success: true,
       //  message: "User registered successfully",
       //  data: result,
     //  });
