@@ -25,7 +25,7 @@
        errors: error,
      });
    }
-//  };
+ };
 
 //  const signUpUser = async (req: Request, res: Response) => {
   //  try {
