@@ -38,7 +38,7 @@
        data: result,
      });
    } catch (error) {
-    //  sendResponse(res, {
+     sendResponse(res, {
       //  statusCode:
         //  error instanceof Error && error.message === "User already exists"
           //  ? 409
