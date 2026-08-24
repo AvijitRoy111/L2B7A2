@@ -32,7 +32,7 @@
      const result = await authService.signUpUserIntoDB(req.body);
 
      sendResponse(res, {
-      //  statusCode: 201,
+       statusCode: 201,
       //  success: true,
       //  message: "User registered successfully",
       //  data: result,
