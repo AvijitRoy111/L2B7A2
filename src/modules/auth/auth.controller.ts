@@ -15,7 +15,7 @@
    } catch (error) {
      const statusCode =
        error instanceof Error && error.message.startsWith("Invalid credentials")
-        //  ? 401
+         ? 401
         //  : 500;
 
     //  sendResponse(res, {
