@@ -28,7 +28,7 @@
  };
 
  const signUpUser = async (req: Request, res: Response) => {
-  //  try {
+   try {
     //  const result = await authService.signUpUserIntoDB(req.body);
 
     //  sendResponse(res, {
