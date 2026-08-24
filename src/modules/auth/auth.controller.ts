@@ -16,7 +16,7 @@
      const statusCode =
        error instanceof Error && error.message.startsWith("Invalid credentials")
          ? 401
-        //  : 500;
+         : 500;
 
     //  sendResponse(res, {
        statusCode,
