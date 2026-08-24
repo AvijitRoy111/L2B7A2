@@ -36,7 +36,7 @@
        success: true,
        message: "User registered successfully",
        data: result,
-    //  });
+     });
   //  } catch (error) {
     //  sendResponse(res, {
       //  statusCode:
