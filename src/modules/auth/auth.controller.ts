@@ -42,7 +42,7 @@
        statusCode:
          error instanceof Error && error.message === "User already exists"
            ? 409
-          //  : error instanceof Error &&
+           : error instanceof Error &&
               //  error.message === "Name, email and password are required!"
             //  ? 400
             //  : 500,
