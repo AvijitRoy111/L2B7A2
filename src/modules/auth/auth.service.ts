@@ -61,7 +61,7 @@
   //  );
 
   //  if (existingUser.rows.length > 0) {
-     throw new Error("User already exists");
+    //  throw new Error("User already exists");
    }
 
    const hashedPassword = await bcrypt.hash(password, 10);
