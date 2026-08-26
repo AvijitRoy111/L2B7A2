@@ -49,7 +49,7 @@
   // const { name, email, password, role } = payload;
   // const userRole = role || "contributor";
 
-  if (!name || !email || !password) {
+  // if (!name || !email || !password) {
     throw new Error("Name, email and password are required!");
   }
 
