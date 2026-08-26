@@ -29,7 +29,7 @@
     //  name: user.name,
     //  email: user.email,
     //  role: user.role,
-   };
+  //  };
 
    const { token } = generateToken(jwtPayload);
 
