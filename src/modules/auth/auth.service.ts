@@ -51,7 +51,7 @@
 
   // if (!name || !email || !password) {
     // throw new Error("Name, email and password are required!");
-  }
+  // }
 
   const existingUser = await pool.query(
     `
