@@ -53,7 +53,7 @@
     // throw new Error("Name, email and password are required!");
   // }
 
-  const existingUser = await pool.query(
+  // const existingUser = await pool.query(
     `
      SELECT id FROM users WHERE email = $1
    `,
