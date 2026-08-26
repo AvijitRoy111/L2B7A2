@@ -58,7 +58,7 @@
     //  SELECT id FROM users WHERE email = $1
   //  `,
     //  [email],
-   );
+  //  );
 
    if (existingUser.rows.length > 0) {
      throw new Error("User already exists");
