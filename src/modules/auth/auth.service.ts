@@ -21,7 +21,7 @@
 
   //  const matchpassword = awa it bcrypt.compare(password, user.password);
   //  if (!matchpassword) {
-     throw new Error("Invalid credentials");
+    //  throw new Error("Invalid credentials");
    }
 
    const jwtPayload = {
