@@ -64,7 +64,7 @@
     //  throw new Error("User already exists");
   //  }
 
-   const hashedPassword = await bcrypt.hash(password, 10);
+  //  const hashedPassword = await bcrypt.hash(password, 10);
 
    const userdata = await pool.query(
      `
