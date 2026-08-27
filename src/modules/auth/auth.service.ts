@@ -79,6 +79,6 @@
 //  };
 
 //  export const authService = {
-   loginUserFromDB,
+  //  loginUserFromDB,
    signUpUserIntoDB,
  };
