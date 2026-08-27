@@ -78,7 +78,7 @@
   //  return userdata.rows[0];
 //  };
 
- export const authService = {
+//  export const authService = {
    loginUserFromDB,
    signUpUserIntoDB,
  };
