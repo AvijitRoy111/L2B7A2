@@ -80,5 +80,5 @@
 
 //  export const authService = {
   //  loginUserFromDB,
-   signUpUserIntoDB,
+  //  signUpUserIntoDB,
  };
