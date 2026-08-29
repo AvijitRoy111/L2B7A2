@@ -19,7 +19,7 @@
 
    const user = userdata.rows[0];
 
-  //  const matchpassword = awa it bcrypt.compare(password, user.password);
+   const matchpassword = awa it bcrypt.compare(password, user.password);
   //  if (!matchpassword) {
     //  throw new Error("Invalid credentials");
   //  }
