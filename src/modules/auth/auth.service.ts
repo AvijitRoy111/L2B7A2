@@ -34,7 +34,7 @@
    const { token } = generateToken(jwtPayload);
 
    const returnUser = {
-    //  id: user.id,
+     id: user.id,
     //  name: user.name,
     //  email: user.email,
     // role: user.role,
