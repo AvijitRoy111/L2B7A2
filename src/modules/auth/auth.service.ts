@@ -71,8 +71,8 @@ const signUpUserIntoDB = async (payload: TSignUpUser) => {
      INSERT INTO users (name, email, password, role)
      VALUES ($1, $2, $3, $4)
      RETURNING id, name, email, role, created_at, updated_at
-  //  `,
-    //  [name, email, hashedPassword, userRole],
+   `,
+     [name, email, hashedPassword, userRole],
   //  );
 
   //  return userdata.rows[0];
