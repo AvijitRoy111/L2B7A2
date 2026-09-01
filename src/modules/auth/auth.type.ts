@@ -1,7 +1,7 @@
  import type { TRole } from "../../types/auth.type"
 
  export type TSignUpUser = {
-  //  name: string,
+   name: string,
   //  email: string,
   //  password: string,
   //  role?: TRole
