@@ -49,7 +49,7 @@
       //  success: true,
       //  message: "Issue fetched successfully",
       //  data: result,
-     });
+    //  });
    } catch (error) {
      const statusCode =
        error instanceof Error && error.message === "Invalid issue id" ? 400 : 500;
