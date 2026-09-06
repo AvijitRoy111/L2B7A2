@@ -74,7 +74,7 @@
     //  }
 
     //  const result = await issueService.createIssueIntoDB(
-       req.body,
+      //  req.body,
        Number(req.user.id),
      );
      sendResponse(res, {
