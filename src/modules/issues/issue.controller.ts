@@ -82,7 +82,7 @@
       //  success: true,
       //  message: "Issue created successfully",
       data: result,
-     });
+    //  });
    } catch (error) {
      const statusCode =
        error instanceof Error &&
