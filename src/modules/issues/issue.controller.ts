@@ -99,7 +99,7 @@
       //  message: error instanceof Error ? error.message : "Internal Server Error",
       // errors: error,
     //  });
-   }
+  //  }
  };
 
  const updateIssue = async (req: Request, res: Response) => {
