@@ -100,7 +100,7 @@
       // errors: error,
     //  });
   //  }
- };
+//  };
 
  const updateIssue = async (req: Request, res: Response) => {
    const { id } = req.params;
