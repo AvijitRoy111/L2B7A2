@@ -107,7 +107,7 @@
   //  try {
     // const result = await issueService.updateIssueIntoDB(
       //  id as string,
-       req.body,
+      //  req.body,
        req.user as JwtPayload,
      );
 
