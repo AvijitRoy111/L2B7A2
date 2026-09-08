@@ -84,7 +84,7 @@
       data: result,
     //  });
   //  } catch (error) {
-     const statusCode =
+    //  const statusCode =
        error instanceof Error &&
        (error.message === "Title, description and type are required" ||
          error.message === "Title must be less than or equal to 150 characters" ||
