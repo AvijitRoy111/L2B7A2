@@ -83,7 +83,7 @@
       //  message: "Issue created successfully",
       data: result,
     //  });
-   } catch (error) {
+  //  } catch (error) {
      const statusCode =
        error instanceof Error &&
        (error.message === "Title, description and type are required" ||
