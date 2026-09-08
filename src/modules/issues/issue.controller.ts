@@ -111,7 +111,7 @@
       //  req.user as JwtPayload,
     //  );
 
-     if (!result) {
+    //  if (!result) {
        return sendResponse(res, {
          statusCode: 404,
          success: false,
