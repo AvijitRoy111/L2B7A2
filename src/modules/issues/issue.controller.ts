@@ -104,7 +104,7 @@
 
 //  const updateIssue = async (req: Request, res: Response) => {
   //  const { id } = req.params;
-   try {
+  //  try {
     const result = await issueService.updateIssueIntoDB(
        id as string,
        req.body,
