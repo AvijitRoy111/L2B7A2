@@ -135,7 +135,7 @@
         //  statusCode = 400;
       //  } else if (
         //  error.message === "Forbidden access" ||
-         error.message === "Contributor cannot update issue status"
+        //  error.message === "Contributor cannot update issue status"
        ) {
          statusCode = 403;
        } else if (
