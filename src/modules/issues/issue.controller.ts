@@ -137,7 +137,7 @@
         //  error.message === "Forbidden access" ||
         //  error.message === "Contributor cannot update issue status"
       //  ) {
-         statusCode = 403;
+        //  statusCode = 403;
        } else if (
          error.message === "Only open issues can be updated by contributor"
        ) {
