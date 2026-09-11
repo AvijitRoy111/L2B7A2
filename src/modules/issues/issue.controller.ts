@@ -126,7 +126,7 @@
       //  data: result,
     //  });
   //  } catch (error) {
-     let statusCode = 500;
+    //  let statusCode = 500;
 
      if (error instanceof Error) {
        if (error.message === "Issue not found") {
