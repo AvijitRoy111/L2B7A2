@@ -128,7 +128,7 @@
   //  } catch (error) {
     //  let statusCode = 500;
 
-     if (error instanceof Error) {
+    //  if (error instanceof Error) {
        if (error.message === "Issue not found") {
          statusCode = 404;
        } else if (error.message === "Invalid issue id") {
