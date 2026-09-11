@@ -122,8 +122,8 @@
     //  sendResponse(res, {
       //  statusCode: 200,
       //  success: true,
-       message: "Issue updated successfully",
-       data: result,
+      //  message: "Issue updated successfully",
+      //  data: result,
      });
    } catch (error) {
      let statusCode = 500;
