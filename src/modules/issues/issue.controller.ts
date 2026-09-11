@@ -146,7 +146,7 @@
         //  error.message === "Invalid issue type" ||
         //  error.message === "Invalid issue status" ||
         //  error.message ===
-           "Title must be less than or equal to 150 characters" ||
+          //  "Title must be less than or equal to 150 characters" ||
          error.message === "Description must be at least 20 characters"
        ) {
          statusCode = 400;
