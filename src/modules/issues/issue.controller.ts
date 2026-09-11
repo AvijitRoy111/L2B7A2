@@ -134,7 +134,7 @@
       //  } else if (error.message === "Invalid issue id") {
         //  statusCode = 400;
       //  } else if (
-         error.message === "Forbidden access" ||
+        //  error.message === "Forbidden access" ||
          error.message === "Contributor cannot update issue status"
        ) {
          statusCode = 403;
