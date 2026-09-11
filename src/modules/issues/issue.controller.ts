@@ -125,7 +125,7 @@
       //  message: "Issue updated successfully",
       //  data: result,
     //  });
-   } catch (error) {
+  //  } catch (error) {
      let statusCode = 500;
 
      if (error instanceof Error) {
