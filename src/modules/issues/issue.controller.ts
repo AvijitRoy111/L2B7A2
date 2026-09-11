@@ -130,7 +130,7 @@
 
     //  if (error instanceof Error) {
       //  if (error.message === "Issue not found") {
-         statusCode = 404;
+        //  statusCode = 404;
        } else if (error.message === "Invalid issue id") {
          statusCode = 400;
        } else if (
