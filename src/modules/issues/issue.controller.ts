@@ -177,7 +177,7 @@
 
     //  sendResponse(res, {
       //  statusCode: 200,
-       success: true,
+      //  success: true,
        message: "Issue deleted successfully",
      });
    } catch (error) {
