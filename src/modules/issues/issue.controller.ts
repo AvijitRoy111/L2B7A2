@@ -168,7 +168,7 @@
     //  const result = await issueService.deleteIssueFromDB(id as string);
 
     //  if (!result) {
-       return sendResponse(res, {
+      //  return sendResponse(res, {
          statusCode: 404,
          success: false,
          message: "Issue not found",
