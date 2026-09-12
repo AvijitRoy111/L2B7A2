@@ -160,7 +160,7 @@
       //  errors: error,
     //  });
   //  }
- };
+//  };
 
  const deleteIssue = async (req: Request, res: Response) => {
    try {
