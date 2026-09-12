@@ -165,7 +165,7 @@
 //  const deleteIssue = async (req: Request, res: Response) => {
   //  try {
     //  const { id } = req.params;
-     const result = await issueService.deleteIssueFromDB(id as string);
+    //  const result = await issueService.deleteIssueFromDB(id as string);
 
      if (!result) {
        return sendResponse(res, {
