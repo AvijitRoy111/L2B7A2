@@ -191,7 +191,7 @@
       //  errors: error,
     //  });
   //  }
- };
+//  };
 
  export const issueController = {
    getAllIssues,
