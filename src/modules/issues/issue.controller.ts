@@ -64,7 +64,7 @@
  };
 
  const createIssue = async (req: Request, res: Response) => {
-  //  try {
+   try {
     //  if (!req.user?.id) {
       //  return sendResponse(res, {
         //  statusCode: 401,
