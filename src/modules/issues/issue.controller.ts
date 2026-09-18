@@ -90,7 +90,7 @@
          error.message === "Title must be less than or equal to 150 characters" ||
          error.message === "Description must be at least 20 characters" ||
          error.message === "Invalid issue type")
-        //  ? 400
+         ? 400
         //  : 500;
 
     //  sendResponse(res, {
