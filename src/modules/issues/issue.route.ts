@@ -3,7 +3,7 @@
 //  import { issueController } from "./issue.controller";
 //  import role from "../../middleware/role.middleware";
 
- const router = Router();
+//  const router = Router();
 
  router.get("/", issueController.getAllIssues);
 
