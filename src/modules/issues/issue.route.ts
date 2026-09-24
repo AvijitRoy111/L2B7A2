@@ -13,7 +13,7 @@
 
 //  router.patch("/:id", auth, issueController.updateIssue);
 
- router.delete("/:id", auth, role("maintainer"), issueController.deleteIssue);
+//  router.delete("/:id", auth, role("maintainer"), issueController.deleteIssue);
 
 
 
