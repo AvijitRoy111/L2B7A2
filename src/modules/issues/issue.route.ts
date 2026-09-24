@@ -11,7 +11,7 @@
 
 //  router.post("/", auth, issueController.createIssue);
 
- router.patch("/:id", auth, issueController.updateIssue);
+//  router.patch("/:id", auth, issueController.updateIssue);
 
  router.delete("/:id", auth, role("maintainer"), issueController.deleteIssue);
 
