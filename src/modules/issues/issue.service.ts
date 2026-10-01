@@ -14,7 +14,7 @@
   //  }
 
   //  if (type && type !== "bug" && type !== "feature_request") {
-     throw new Error("Invalid issue type");
+    //  throw new Error("Invalid issue type");
    }
 
    if (
