@@ -2,7 +2,7 @@
 //  import { pool } from "../../config/db";
 //  import type {
   //  TCreateIssuePayload,
-   TIssueQuery,
+  //  TIssueQuery,
    TUpdateIssuePayload,
  } from "./issue.type";
 
