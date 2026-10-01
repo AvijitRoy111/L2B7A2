@@ -18,7 +18,7 @@
   //  }
 
   //  if (
-     status &&
+    //  status &&
      status !== "open" &&
      status !== "in_progress" &&
     status !== "resolved"
