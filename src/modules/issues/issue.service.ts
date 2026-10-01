@@ -13,7 +13,7 @@
     //  throw new Error("Invalid sort value");
   //  }
 
-   if (type && type !== "bug" && type !== "feature_request") {
+  //  if (type && type !== "bug" && type !== "feature_request") {
      throw new Error("Invalid issue type");
    }
 
