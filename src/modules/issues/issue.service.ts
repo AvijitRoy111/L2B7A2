@@ -3,7 +3,7 @@
 //  import type {
   //  TCreateIssuePayload,
   //  TIssueQuery,
-   TUpdateIssuePayload,
+  //  TUpdateIssuePayload,
  } from "./issue.type";
 
  const getAllIssuesFromDB = async (query: TIssueQuery) => {
