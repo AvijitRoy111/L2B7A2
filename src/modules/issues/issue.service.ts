@@ -6,7 +6,7 @@
   //  TUpdateIssuePayload,
 //  } from "./issue.type";
 
- const getAllIssuesFromDB = async (query: TIssueQuery) => {
+//  const getAllIssuesFromDB = async (query: TIssueQuery) => {
    const { sort = "newest", type, status } = query;
 
    if (sort !== "newest" && sort !== "oldest") {
