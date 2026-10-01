@@ -17,7 +17,7 @@
     //  throw new Error("Invalid issue type");
   //  }
 
-   if (
+  //  if (
      status &&
      status !== "open" &&
      status !== "in_progress" &&
