@@ -21,7 +21,7 @@
     //  status &&
     //  status !== "open" &&
     //  status !== "in_progress" &&
-    status !== "resolved"
+    // status !== "resolved"
    ) {
      throw new Error("Invalid issue status");
    }
