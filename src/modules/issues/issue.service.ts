@@ -47,7 +47,7 @@
   //  const issueResult = await pool.query(
     //  `
       //  SELECT *
-       FROM issues
+      //  FROM issues
        ${whereClause}
        ORDER BY created_at ${orderBy}
      `,
