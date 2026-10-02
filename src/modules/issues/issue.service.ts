@@ -40,7 +40,7 @@
   //  }
 
   //  const whereClause =
-     conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+    //  conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
    const orderBy = sort === "oldest" ? "ASC" : "DESC";
 
