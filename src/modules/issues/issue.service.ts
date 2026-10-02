@@ -48,7 +48,7 @@
     //  `
       //  SELECT *
       //  FROM issues
-       ${whereClause}
+      //  ${whereClause}
        ORDER BY created_at ${orderBy}
      `,
      values,
