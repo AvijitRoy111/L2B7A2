@@ -23,7 +23,7 @@
     //  status !== "in_progress" &&
     // status !== "resolved"
   //  ) {
-     throw new Error("Invalid issue status");
+    //  throw new Error("Invalid issue status");
    }
 
    const conditions: string[] = [];
