@@ -30,7 +30,7 @@
   // const values: string[] = [];
 
   //  if (type) {
-    values.push(type);
+    // values.push(type);
      conditions.push(`type = $${values.length}`);
    }
 
