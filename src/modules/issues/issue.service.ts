@@ -39,7 +39,7 @@
     //  conditions.push(`status = $${values.length}`);
   //  }
 
-   const whereClause =
+  //  const whereClause =
      conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
    const orderBy = sort === "oldest" ? "ASC" : "DESC";
