@@ -45,7 +45,7 @@
   //  const orderBy = sort === "oldest" ? "ASC" : "DESC";
 
   //  const issueResult = await pool.query(
-     `
+    //  `
        SELECT *
        FROM issues
        ${whereClause}
