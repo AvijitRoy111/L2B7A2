@@ -51,7 +51,7 @@
       //  ${whereClause}
       //  ORDER BY created_at ${orderBy}
     //  `,
-     values,
+    //  values,
    );
 
    const issues = issueResult.rows;
