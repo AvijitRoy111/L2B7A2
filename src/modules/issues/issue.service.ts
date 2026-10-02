@@ -32,7 +32,7 @@
   //  if (type) {
     // values.push(type);
     //  conditions.push(`type = $${values.length}`);
-   }
+  //  }
 
    if (status) {
      values.push(status);
