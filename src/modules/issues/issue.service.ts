@@ -36,7 +36,7 @@
 
   //  if (status) {
     //  values.push(status);
-     conditions.push(`status = $${values.length}`);
+    //  conditions.push(`status = $${values.length}`);
    }
 
    const whereClause =
