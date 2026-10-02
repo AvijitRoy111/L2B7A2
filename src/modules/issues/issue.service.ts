@@ -49,7 +49,7 @@
       //  SELECT *
       //  FROM issues
       //  ${whereClause}
-       ORDER BY created_at ${orderBy}
+      //  ORDER BY created_at ${orderBy}
      `,
      values,
    );
