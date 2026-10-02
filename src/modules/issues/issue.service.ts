@@ -34,7 +34,7 @@
     //  conditions.push(`type = $${values.length}`);
   //  }
 
-   if (status) {
+  //  if (status) {
      values.push(status);
      conditions.push(`status = $${values.length}`);
    }
