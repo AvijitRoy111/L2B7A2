@@ -24,7 +24,7 @@
     // status !== "resolved"
   //  ) {
     //  throw new Error("Invalid issue status");
-   }
+  //  }
 
    const conditions: string[] = [];
   const values: string[] = [];
