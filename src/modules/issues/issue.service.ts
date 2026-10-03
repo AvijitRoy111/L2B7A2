@@ -65,7 +65,7 @@
   //  const reporterResult = await pool.query(
     //  `
       //  SELECT id, name, role
-       FROM users
+      //  FROM users
        WHERE id = ANY($1::int[])
      `,
      [reporterIds],
