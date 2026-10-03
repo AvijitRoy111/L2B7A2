@@ -67,7 +67,7 @@
       //  SELECT id, name, role
       //  FROM users
       //  WHERE id = ANY($1::int[])
-     `,
+    //  `,
      [reporterIds],
    );
 
