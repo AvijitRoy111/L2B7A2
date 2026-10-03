@@ -75,7 +75,7 @@
     //  reporterResult.rows.map((reporter) => [reporter.id, reporter]),
   //  );
 
-   const issuesWithReporter = issues.map((issue) => {
+  //  const issuesWithReporter = issues.map((issue) => {
      const { reporter_id, ...issueData } = issue;
 
      return {
