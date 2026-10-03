@@ -84,7 +84,7 @@
     //  };
   //  });
 
-   return issuesWithReporter;
+  //  return issuesWithReporter;
  };
 
  const getSingleIssueFromDB = async (id: string) => {
