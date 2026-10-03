@@ -54,7 +54,7 @@
     //  values,
   //  );
 
-   const issues = issueResult.rows;
+  //  const issues = issueResult.rows;
 
    if (issues.length === 0) {
      return [];
