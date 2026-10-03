@@ -71,7 +71,7 @@
     //  [reporterIds],
   //  );
 
-   const reporterMap = new Map(
+  //  const reporterMap = new Map(
      reporterResult.rows.map((reporter) => [reporter.id, reporter]),
    );
 
