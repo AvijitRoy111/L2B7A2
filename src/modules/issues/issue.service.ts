@@ -56,7 +56,7 @@
 
   //  const issues = issueResult.rows;
 
-   if (issues.length === 0) {
+  //  if (issues.length === 0) {
      return [];
    }
 
