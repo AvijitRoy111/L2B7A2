@@ -110,7 +110,7 @@
   //  const reporterResult = await pool.query(
     //  `
       //  SELECT id, name, role
-       FROM users
+      //  FROM users
        WHERE id = $1
      `,
      [issue.reporter_id],
