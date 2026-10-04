@@ -108,7 +108,7 @@
   //  }
 
   //  const reporterResult = await pool.query(
-     `
+    //  `
        SELECT id, name, role
        FROM users
        WHERE id = $1
