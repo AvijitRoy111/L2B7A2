@@ -95,7 +95,7 @@
   //  const issueResult = await pool.query(
     //  `
       //  SELECT *
-       FROM issues
+      //  FROM issues
        WHERE id = $1
      `,
      [id],
