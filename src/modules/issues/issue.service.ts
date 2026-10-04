@@ -89,7 +89,7 @@
 
 //  const getSingleIssueFromDB = async (id: string) => {
   //  if (!Number.isInteger(Number(id))) {
-     throw new Error("Invalid issue id");
+    //  throw new Error("Invalid issue id");
    }
 
    const issueResult = await pool.query(
