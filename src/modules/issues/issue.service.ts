@@ -93,7 +93,7 @@
   //  }
 
   //  const issueResult = await pool.query(
-     `
+    //  `
        SELECT *
        FROM issues
        WHERE id = $1
