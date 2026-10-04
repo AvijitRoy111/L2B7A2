@@ -88,7 +88,7 @@
 //  };
 
 //  const getSingleIssueFromDB = async (id: string) => {
-   if (!Number.isInteger(Number(id))) {
+  //  if (!Number.isInteger(Number(id))) {
      throw new Error("Invalid issue id");
    }
 
