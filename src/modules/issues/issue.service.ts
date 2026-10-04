@@ -107,7 +107,7 @@
     //  return null;
   //  }
 
-   const reporterResult = await pool.query(
+  //  const reporterResult = await pool.query(
      `
        SELECT id, name, role
        FROM users
