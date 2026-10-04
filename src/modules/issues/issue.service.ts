@@ -111,7 +111,7 @@
     //  `
       //  SELECT id, name, role
       //  FROM users
-       WHERE id = $1
+      //  WHERE id = $1
      `,
      [issue.reporter_id],
    );
