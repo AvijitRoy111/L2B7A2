@@ -92,7 +92,7 @@
     //  throw new Error("Invalid issue id");
   //  }
 
-   const issueResult = await pool.query(
+  //  const issueResult = await pool.query(
      `
        SELECT *
        FROM issues
