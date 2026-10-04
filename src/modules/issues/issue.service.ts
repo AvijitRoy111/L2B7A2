@@ -99,7 +99,7 @@
       //  WHERE id = $1
     //  `,
     //  [id],
-   );
+  //  );
 
    const issue = issueResult.rows[0];
 
