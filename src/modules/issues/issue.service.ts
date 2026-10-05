@@ -139,7 +139,7 @@
   //  }
 
   //  if (description.length < 20) {
-     throw new Error("Description must be at least 20 characters");
+    //  throw new Error("Description must be at least 20 characters");
    }
 
    if (type !== "bug" && type !== "feature_request") {
