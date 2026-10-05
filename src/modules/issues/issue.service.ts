@@ -119,7 +119,7 @@
   //  const { reporter_id, ...issueData } = issue;
 
   //  return {
-     ...issueData,
+    //  ...issueData,
      reporter: reporterResult.rows[0],
    };
  };
