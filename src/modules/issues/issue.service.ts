@@ -132,7 +132,7 @@
 
   //  if (!title || !description || !type) {
     //  throw new Error("Title, description and type are required");
-   }
+  //  }
 
    if (title.length > 150) {
      throw new Error("Title must be less than or equal to 150 characters");
