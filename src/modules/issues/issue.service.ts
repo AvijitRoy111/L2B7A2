@@ -124,7 +124,7 @@
   //  };
 //  };
 
- const createIssueIntoDB = async (
+//  const createIssueIntoDB = async (
    payload: TCreateIssuePayload,
    reporterId: number,
  ) => {
