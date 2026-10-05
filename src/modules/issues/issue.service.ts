@@ -169,7 +169,7 @@
     //  throw new Error("Invalid issue id");
   //  }
 
-   const { title, description, type, status } = payload;
+  //  const { title, description, type, status } = payload;
 
    const issueResult = await pool.query(
      `
