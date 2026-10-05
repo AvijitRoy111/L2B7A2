@@ -186,7 +186,7 @@
   //  }
 
   //  const isMaintainer = user.role === "maintainer";
-   const isOwner = issue.reporter_id === user.id;
+  //  const isOwner = issue.reporter_id === user.id;
 
    if (!isMaintainer) {
      if (!isOwner) {
