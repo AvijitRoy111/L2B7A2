@@ -127,7 +127,7 @@
 //  const createIssueIntoDB = async (
   //  payload: TCreateIssuePayload,
   //  reporterId: number,
- ) => {
+//  ) => {
    const { title, description, type } = payload;
 
    if (!title || !description || !type) {
