@@ -120,7 +120,7 @@
 
   //  return {
     //  ...issueData,
-     reporter: reporterResult.rows[0],
+    //  reporter: reporterResult.rows[0],
    };
  };
 
