@@ -135,7 +135,7 @@
   //  }
 
   //  if (title.length > 150) {
-     throw new Error("Title must be less than or equal to 150 characters");
+    //  throw new Error("Title must be less than or equal to 150 characters");
    }
 
    if (description.length < 20) {
