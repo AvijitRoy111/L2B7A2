@@ -161,7 +161,7 @@
 //  };
 
 //  const updateIssueIntoDB = async (
-   id: string,
+  //  id: string,
    payload: TUpdateIssuePayload,
    user: JwtPayload,
  ) => {
