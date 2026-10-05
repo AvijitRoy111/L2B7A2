@@ -181,7 +181,7 @@
 
   //  const issue = issueResult.rows[0];
 
-   if (!issue) {
+  //  if (!issue) {
      throw new Error("Issue not found");
    }
 
