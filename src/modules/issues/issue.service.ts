@@ -158,7 +158,7 @@
   //  );
 
   //  return result.rows[0];
- };
+//  };
 
  const updateIssueIntoDB = async (
    id: string,
