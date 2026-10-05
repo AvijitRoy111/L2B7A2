@@ -128,7 +128,7 @@
   //  payload: TCreateIssuePayload,
   //  reporterId: number,
 //  ) => {
-   const { title, description, type } = payload;
+  //  const { title, description, type } = payload;
 
    if (!title || !description || !type) {
      throw new Error("Title, description and type are required");
