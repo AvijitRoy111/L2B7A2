@@ -118,7 +118,7 @@
 
   //  const { reporter_id, ...issueData } = issue;
 
-   return {
+  //  return {
      ...issueData,
      reporter: reporterResult.rows[0],
    };
