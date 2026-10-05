@@ -136,7 +136,7 @@
 
   //  if (title.length > 150) {
     //  throw new Error("Title must be less than or equal to 150 characters");
-   }
+  //  }
 
    if (description.length < 20) {
      throw new Error("Description must be at least 20 characters");
