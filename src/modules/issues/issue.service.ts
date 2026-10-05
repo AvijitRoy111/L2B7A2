@@ -125,7 +125,7 @@
 //  };
 
 //  const createIssueIntoDB = async (
-   payload: TCreateIssuePayload,
+  //  payload: TCreateIssuePayload,
    reporterId: number,
  ) => {
    const { title, description, type } = payload;
