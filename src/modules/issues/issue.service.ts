@@ -150,7 +150,7 @@
     //  `
         
         //  INSERT INTO issues (title, description, type, reporter_id)
-         VALUES ($1, $2, $3, $4)
+        //  VALUES ($1, $2, $3, $4)
          RETURNING *
         
          `,
