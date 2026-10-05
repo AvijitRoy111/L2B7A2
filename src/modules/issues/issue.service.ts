@@ -154,7 +154,7 @@
         //  RETURNING *
         
         //  `,
-     [title, description, type, reporterId],
+    //  [title, description, type, reporterId],
    );
 
    return result.rows[0];
