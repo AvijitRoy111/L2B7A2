@@ -155,7 +155,7 @@
         
         //  `,
     //  [title, description, type, reporterId],
-   );
+  //  );
 
    return result.rows[0];
  };
