@@ -157,7 +157,7 @@
     //  [title, description, type, reporterId],
   //  );
 
-   return result.rows[0];
+  //  return result.rows[0];
  };
 
  const updateIssueIntoDB = async (
