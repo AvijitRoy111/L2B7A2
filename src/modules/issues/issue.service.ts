@@ -172,7 +172,7 @@
   //  const { title, description, type, status } = payload;
 
   //  const issueResult = await pool.query(
-     `
+    //  `
      SELECT * FROM issues
      WHERE id = $1
    `,
