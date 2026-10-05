@@ -182,7 +182,7 @@
   //  const issue = issueResult.rows[0];
 
   //  if (!issue) {
-     throw new Error("Issue not found");
+    //  throw new Error("Issue not found");
    }
 
    const isMaintainer = user.role === "maintainer";
