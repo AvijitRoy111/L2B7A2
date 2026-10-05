@@ -149,7 +149,7 @@
   //  const result = await pool.query(
     //  `
         
-         INSERT INTO issues (title, description, type, reporter_id)
+        //  INSERT INTO issues (title, description, type, reporter_id)
          VALUES ($1, $2, $3, $4)
          RETURNING *
         
