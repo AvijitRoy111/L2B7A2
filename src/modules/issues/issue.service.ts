@@ -113,7 +113,7 @@
       //  FROM users
       //  WHERE id = $1
     //  `,
-     [issue.reporter_id],
+    //  [issue.reporter_id],
    );
 
    const { reporter_id, ...issueData } = issue;
