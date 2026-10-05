@@ -130,7 +130,7 @@
 //  ) => {
   //  const { title, description, type } = payload;
 
-   if (!title || !description || !type) {
+  //  if (!title || !description || !type) {
      throw new Error("Title, description and type are required");
    }
 
