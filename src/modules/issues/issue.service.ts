@@ -179,7 +179,7 @@
     //  [id],
   //  );
 
-   const issue = issueResult.rows[0];
+  //  const issue = issueResult.rows[0];
 
    if (!issue) {
      throw new Error("Issue not found");
