@@ -208,7 +208,7 @@
 
   //  if (description && description.length < 20) {
     //  throw new Error("Description must be at least 20 characters");
-   }
+  //  }
 
    if (type && type !== "bug" && type !== "feature_request") {
      throw new Error("Invalid issue type");
