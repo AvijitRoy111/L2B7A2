@@ -194,7 +194,7 @@
     //  }
 
     //  if (issue.status !== "open") {
-       throw new Error("Only open issues can be updated by contributor");
+      //  throw new Error("Only open issues can be updated by contributor");
      }
 
      if (status) {
