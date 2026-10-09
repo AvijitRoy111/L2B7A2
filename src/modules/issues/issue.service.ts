@@ -188,7 +188,7 @@
   //  const isMaintainer = user.role === "maintainer";
   //  const isOwner = issue.reporter_id === user.id;
 
-   if (!isMaintainer) {
+  //  if (!isMaintainer) {
      if (!isOwner) {
        throw new Error("Forbidden access");
      }
