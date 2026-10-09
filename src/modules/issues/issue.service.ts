@@ -198,7 +198,7 @@
     //  }
 
     //  if (status) {
-       throw new Error("Contributor cannot update issue status");
+      //  throw new Error("Contributor cannot update issue status");
      }
    }
 
