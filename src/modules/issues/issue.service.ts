@@ -199,7 +199,7 @@
 
     //  if (status) {
       //  throw new Error("Contributor cannot update issue status");
-     }
+    //  }
    }
 
    if (title && title.length > 150) {
