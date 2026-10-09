@@ -189,7 +189,7 @@
   //  const isOwner = issue.reporter_id === user.id;
 
   //  if (!isMaintainer) {
-     if (!isOwner) {
+    //  if (!isOwner) {
        throw new Error("Forbidden access");
      }
 
