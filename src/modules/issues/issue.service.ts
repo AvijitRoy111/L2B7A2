@@ -216,7 +216,7 @@
 
   //  if (
     //  status &&
-    status !== "open" &&
+    // status !== "open" &&
      status !== "in_progress" &&
      status !== "resolved"
    ) {
