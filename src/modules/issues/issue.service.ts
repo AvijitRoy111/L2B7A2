@@ -241,7 +241,7 @@
   //  return result.rows[0];
 //  };
 
- const deleteIssueFromDB = async (id: string) => {
+//  const deleteIssueFromDB = async (id: string) => {
    if (!Number.isInteger(Number(id))) {
      throw new Error("Invalid issue id");
    }
