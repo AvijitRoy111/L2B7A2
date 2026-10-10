@@ -221,7 +221,7 @@
     //  status !== "resolved"
   //  ) {
     //  throw new Error("Invalid issue status");
-   }
+  //  }
 
    const result = await pool.query(
      `
