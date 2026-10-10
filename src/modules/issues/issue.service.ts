@@ -243,7 +243,7 @@
 
 //  const deleteIssueFromDB = async (id: string) => {
   //  if (!Number.isInteger(Number(id))) {
-     throw new Error("Invalid issue id");
+    //  throw new Error("Invalid issue id");
    }
 
    const result = await pool.query(
