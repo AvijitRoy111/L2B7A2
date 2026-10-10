@@ -224,7 +224,7 @@
   //  }
 
   //  const result = await pool.query(
-     `
+    //  `
      UPDATE issues
      SET
      title = COALESCE($1, title),
