@@ -231,7 +231,7 @@
     // description = COALESCE($2, description),
     //  type = COALESCE($3, type),
     //  status = COALESCE($4, status),
-     updated_at = NOW()
+    //  updated_at = NOW()
      WHERE id = $5
      RETURNING *
    `,
