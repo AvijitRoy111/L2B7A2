@@ -234,7 +234,7 @@
     //  updated_at = NOW()
     //  WHERE id = $5
     //  RETURNING *
-   `,
+  //  `,
      [title, description, type, status, id],
    );
 
