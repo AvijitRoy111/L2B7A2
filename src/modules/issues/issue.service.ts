@@ -249,7 +249,7 @@
   //  const result = await pool.query(
     //  `
     //  DELETE FROM issues
-     WHERE id = $1
+    //  WHERE id = $1
      RETURNING *
    `,
      [id],
