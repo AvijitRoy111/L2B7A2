@@ -252,7 +252,7 @@
     //  WHERE id = $1
     //  RETURNING *
   //  `,
-     [id],
+    //  [id],
    );
 
    return result.rows[0];
