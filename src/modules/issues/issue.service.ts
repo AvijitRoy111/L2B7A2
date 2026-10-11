@@ -253,7 +253,7 @@
     //  RETURNING *
   //  `,
     //  [id],
-   );
+  //  );
 
    return result.rows[0];
  };
