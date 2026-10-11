@@ -256,7 +256,7 @@
   //  );
 
   //  return result.rows[0];
- };
+//  };
 
  export const issueService = {
    getAllIssuesFromDB,
