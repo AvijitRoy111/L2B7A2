@@ -251,7 +251,7 @@
     //  DELETE FROM issues
     //  WHERE id = $1
     //  RETURNING *
-   `,
+  //  `,
      [id],
    );
 
