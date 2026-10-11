@@ -258,7 +258,7 @@
   //  return result.rows[0];
 //  };
 
- export const issueService = {
+//  export const issueService = {
    getAllIssuesFromDB,
    getSingleIssueFromDB,
    createIssueIntoDB,
