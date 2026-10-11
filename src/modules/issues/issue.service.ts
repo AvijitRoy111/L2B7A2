@@ -259,7 +259,7 @@
 //  };
 
 //  export const issueService = {
-   getAllIssuesFromDB,
+  //  getAllIssuesFromDB,
    getSingleIssueFromDB,
    createIssueIntoDB,
    updateIssueIntoDB,
