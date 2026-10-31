@@ -79,7 +79,7 @@
      const { reporter_id, ...issueData } = issue;
 
      return {
-      //  ...issueData,
+       ...issueData,
       //  reporter: reporterMap.get(reporter_id),
     //  };
   //  });
