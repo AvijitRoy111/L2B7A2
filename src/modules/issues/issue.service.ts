@@ -78,7 +78,7 @@
    const issuesWithReporter = issues.map((issue) => {
      const { reporter_id, ...issueData } = issue;
 
-    //  return {
+     return {
       //  ...issueData,
       //  reporter: reporterMap.get(reporter_id),
     //  };
